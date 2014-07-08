@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/lujoke/Documents/MCPhoton2/src/ComptonScatter.cpp
+string
+-
+cstdlib
+-
+cmath
+-
+Interpolate.hpp
+/home/lujoke/Documents/MCPhoton2/src/Interpolate.hpp
+
+/home/lujoke/Documents/MCPhoton2/src/Interpolate.hpp
+string
+-
+
