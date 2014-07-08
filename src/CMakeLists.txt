@@ -17,7 +17,7 @@ ADD_DEFINITIONS(
 
 SET(
 	DEFINITION 
-	-D_DIR="/home/lujoke/Documents/MCPhoton2/data"
+	-D_DIR="/home/lujoke/Documents/CPP/MCPhoton/data"
 )
  
 SET(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -D_INTERPOLATOR3=getLinearInterpolation3 -D_INTERPOLATOR2=getLinearInterpolation2 ${DEFINITION}"
