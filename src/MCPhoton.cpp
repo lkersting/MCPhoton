@@ -35,7 +35,7 @@ int bin_idx;
 const double N_Fe = 55.845;
 
 // Iron (Fe) absorption and total cross section data file [cm^2/g] (E in MeV)
-std::string name = "/Fe.txt";
+std::string name = "/MCPhoton/data/Fe.txt";
 
 // Full file path
 std::string file = xstr(DIR) + name;

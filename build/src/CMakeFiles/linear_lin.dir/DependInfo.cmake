@@ -14,7 +14,7 @@ SET(CMAKE_CXX_COMPILER_ID "GNU")
 
 # Preprocessor definitions for this target.
 SET(CMAKE_TARGET_DEFINITIONS
-  "DIR=/home/lujoke/Documents/CPP/MCPhoton/data"
+  "DIR=/home/lujoke/Documents/CPP"
   )
 
 # Targets to which this target links.

@@ -24,7 +24,7 @@ void ComptonScatter (	double (&alpha),
 						double (&mu)	)
 {
 	// Material (Iron) S(x,z) data file name
-	std::string name = "/S_Fe.txt";
+	std::string name = "/MCPhoton/data/S_Fe.txt";
 
 	// Full file path
 	std::string file = xstr(DIR) + name;
