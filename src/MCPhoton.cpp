@@ -38,7 +38,7 @@ const double N_Fe = 55.845;
 std::string name = "/Fe.txt";
 
 // Full file path
-std::string file = DIR + name;
+std::string file = xstr(DIR) + name;
 
 // Random number for interaction sampling
 double rnd;

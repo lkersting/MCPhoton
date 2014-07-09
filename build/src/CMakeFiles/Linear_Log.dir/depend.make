@@ -3,26 +3,11 @@
 
 src/CMakeFiles/Linear_Log.dir/AzimuthalRej.cpp.o: ../src/AzimuthalRej.cpp
 
-src/CMakeFiles/Linear_Log.dir/ComptonScatter.cpp.o: ../src/ComptonScatter.cpp
-src/CMakeFiles/Linear_Log.dir/ComptonScatter.cpp.o: ../src/Interpolate.hpp
-
 src/CMakeFiles/Linear_Log.dir/Interpolate.cpp.o: ../src/Interpolate.cpp
 
 src/CMakeFiles/Linear_Log.dir/KNLinRej.cpp.o: ../src/KNLinRej.cpp
 
 src/CMakeFiles/Linear_Log.dir/KNRej.cpp.o: ../src/KNRej.cpp
-
-src/CMakeFiles/Linear_Log.dir/MCPhoton.cpp.o: ../src/Interpolate.hpp
-src/CMakeFiles/Linear_Log.dir/MCPhoton.cpp.o: ../src/MCPhoton.cpp
-src/CMakeFiles/Linear_Log.dir/MCPhoton.cpp.o: ../src/MCPhoton.hpp
-src/CMakeFiles/Linear_Log.dir/MCPhoton.cpp.o: ../src/PhotonScatter.hpp
-src/CMakeFiles/Linear_Log.dir/MCPhoton.cpp.o: ../src/PhotonTransport.hpp
-
-src/CMakeFiles/Linear_Log.dir/PhotonScatter.cpp.o: ../src/AzimuthalRej.hpp
-src/CMakeFiles/Linear_Log.dir/PhotonScatter.cpp.o: ../src/ComptonScatter.hpp
-src/CMakeFiles/Linear_Log.dir/PhotonScatter.cpp.o: ../src/KNLinRej.hpp
-src/CMakeFiles/Linear_Log.dir/PhotonScatter.cpp.o: ../src/KNRej.hpp
-src/CMakeFiles/Linear_Log.dir/PhotonScatter.cpp.o: ../src/PhotonScatter.cpp
 
 src/CMakeFiles/Linear_Log.dir/PhotonTransport.cpp.o: ../src/PhotonTransport.cpp
 

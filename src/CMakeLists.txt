@@ -1,22 +1,27 @@
-SET(
-  HEADERS ${HEADERS}
+SET(DATA_DIRECTORY
+  ${DATA_DIRECTORY}
+  /home/lujoke/Documents/CPP/MCPhoton/data
+)
+
+SET(HEADERS 
+  ${HEADERS}
   Interpolate.hpp
   KNRej.hpp
   KNLinRej.hpp
   ComptonScatter.hpp
   AzimuthalRej.hpp
-  ComptonScatter.hpp
   PhotonTransport.hpp
   PhotonScatter.hpp
   MCPhoton.hpp
   )
 
-SET(CMAKE_CXX_FLAGS
--std=c++11
+SET(CMAKE_CXX_FLAGS 
+  ${CMAKE_CXX_FLAGS}
+  -std=c++11
 )
 
-SET(
-  SOURCES ${SOURCES}
+SET(SOURCES 
+  ${SOURCES}
   Interpolate.cpp
   KNRej.cpp
   KNLinRej.cpp
@@ -27,27 +32,25 @@ SET(
 ADD_LIBRARY(
   Lin
   MCPhoton.cpp
-  ComptonScatter.cpp
 )
 
 TARGET_COMPILE_DEFINITIONS(
   Lin
   PRIVATE
   _INTERPOLATOR3=getLinearInterpolation3
-  _INTERPOLATOR2=getLinearInterpolation2
+  DIR=${DATA_DIRECTORY}
 )
 
 ADD_LIBRARY(
   Log
   MCPhoton.cpp
-  ComptonScatter.cpp
 )
 
 TARGET_COMPILE_DEFINITIONS(
   Log
   PRIVATE
   _INTERPOLATOR3=getLogInterpolation3
-  _INTERPOLATOR2=getLogInterpolation2
+  DIR=/home/lujoke/Documents/CPP/MCPhoton/data
 )
 
 ADD_LIBRARY(
@@ -84,79 +87,96 @@ TARGET_COMPILE_DEFINITIONS(
 )
    
 ADD_EXECUTABLE(
-  Constant_Lin
+  constant_lin
   ${SOURCES}
   )
 
 TARGET_LINK_LIBRARIES(
-  Constant_Lin
+  constant_lin
   Lin
   Constant
 )
 
 ADD_EXECUTABLE(
-  Constant_Log
+  constant_log
   ${SOURCES}
   )
 
 TARGET_LINK_LIBRARIES(
-  Constant_Log
+  constant_log
   Log
   Constant
 )
 
 ADD_EXECUTABLE(
-  Linear_Lin
+  linear_lin
   ${SOURCES}
   )
 
 TARGET_LINK_LIBRARIES(
-  Linear_Lin
+  linear_lin
   Lin
   Linear
 )
 
 ADD_EXECUTABLE(
-  Linear_Log
+  linear_log
   ${SOURCES}
   )
 
 TARGET_LINK_LIBRARIES(
-  Linear_Log
+  linear_log
   Log
   Linear
 )
 
 ADD_EXECUTABLE(
-  TwoPath_Lin
+  twopath_lin
   ${SOURCES}
+  ComptonScatter.cpp
   )
 
 TARGET_LINK_LIBRARIES(
-  TwoPath_Lin
+  twopath_lin
   Lin
   TwoPath
 )
 
 ADD_EXECUTABLE(
-  TwoPath_Log
+  twopath_log
   ${SOURCES}
+  ComptonScatter.cpp
   )
 
+
 TARGET_LINK_LIBRARIES(
-  TwoPath_Log
+  twopath_log
   Log
   TwoPath
 )
 
 SET_TARGET_PROPERTIES( 
-Constant_Lin
-Constant_Log
-Linear_Lin
-Linear_Log
-TwoPath_Lin
-TwoPath_Log
+constant_lin
+constant_log
+linear_lin
+linear_log
+twopath_lin
+twopath_log
 PROPERTIES
 OUTPUT_NAME "MCPhoton"
+COMPILE_DEFINITIONS
+DIR=${DATA_DIRECTORY}
+)
+
+TARGET_COMPILE_DEFINITIONS(
+  twopath_lin
+  PRIVATE
+  "_INTERPOLATOR2=getLinearInterpolation2"
+)
+
+TARGET_COMPILE_DEFINITIONS(
+  twopath_log
+  PRIVATE
+  "_INTERPOLATOR2=getLogInterpolation2"
 )
 

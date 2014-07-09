@@ -4,6 +4,7 @@ FILE(REMOVE_RECURSE
   "CMakeFiles/Linear_Lin.dir/KNLinRej.cpp.o"
   "CMakeFiles/Linear_Lin.dir/AzimuthalRej.cpp.o"
   "CMakeFiles/Linear_Lin.dir/PhotonTransport.cpp.o"
+  "CMakeFiles/Linear_Lin.dir/ComptonScatter.cpp.o"
   "MCPhoton.pdb"
   "MCPhoton"
 )

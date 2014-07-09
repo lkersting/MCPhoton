@@ -5,12 +5,19 @@ SET(CMAKE_DEPENDS_LANGUAGES
 # The set of files for implicit dependencies of each language:
 SET(CMAKE_DEPENDS_CHECK_CXX
   "/home/lujoke/Documents/CPP/MCPhoton/src/AzimuthalRej.cpp" "/home/lujoke/Documents/CPP/MCPhoton/build/src/CMakeFiles/TwoPath_Log.dir/AzimuthalRej.cpp.o"
+  "/home/lujoke/Documents/CPP/MCPhoton/src/ComptonScatter.cpp" "/home/lujoke/Documents/CPP/MCPhoton/build/src/CMakeFiles/TwoPath_Log.dir/ComptonScatter.cpp.o"
   "/home/lujoke/Documents/CPP/MCPhoton/src/Interpolate.cpp" "/home/lujoke/Documents/CPP/MCPhoton/build/src/CMakeFiles/TwoPath_Log.dir/Interpolate.cpp.o"
   "/home/lujoke/Documents/CPP/MCPhoton/src/KNLinRej.cpp" "/home/lujoke/Documents/CPP/MCPhoton/build/src/CMakeFiles/TwoPath_Log.dir/KNLinRej.cpp.o"
   "/home/lujoke/Documents/CPP/MCPhoton/src/KNRej.cpp" "/home/lujoke/Documents/CPP/MCPhoton/build/src/CMakeFiles/TwoPath_Log.dir/KNRej.cpp.o"
   "/home/lujoke/Documents/CPP/MCPhoton/src/PhotonTransport.cpp" "/home/lujoke/Documents/CPP/MCPhoton/build/src/CMakeFiles/TwoPath_Log.dir/PhotonTransport.cpp.o"
   )
 SET(CMAKE_CXX_COMPILER_ID "GNU")
+
+# Preprocessor definitions for this target.
+SET(CMAKE_TARGET_DEFINITIONS
+  "DIR=/home/lujoke/Documents/CPP/MCPhoton/data"
+  "_INTERPOLATOR2=getLogInterpolation2"
+  )
 
 # Targets to which this target links.
 SET(CMAKE_TARGET_LINKED_INFO_FILES

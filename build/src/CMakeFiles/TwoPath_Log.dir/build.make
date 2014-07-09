@@ -164,13 +164,37 @@ src/CMakeFiles/TwoPath_Log.dir/PhotonTransport.cpp.o.provides: src/CMakeFiles/Tw
 
 src/CMakeFiles/TwoPath_Log.dir/PhotonTransport.cpp.o.provides.build: src/CMakeFiles/TwoPath_Log.dir/PhotonTransport.cpp.o
 
+src/CMakeFiles/TwoPath_Log.dir/ComptonScatter.cpp.o: src/CMakeFiles/TwoPath_Log.dir/flags.make
+src/CMakeFiles/TwoPath_Log.dir/ComptonScatter.cpp.o: ../src/ComptonScatter.cpp
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/lujoke/Documents/CPP/MCPhoton/build/CMakeFiles $(CMAKE_PROGRESS_6)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/CMakeFiles/TwoPath_Log.dir/ComptonScatter.cpp.o"
+	cd /home/lujoke/Documents/CPP/MCPhoton/build/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/TwoPath_Log.dir/ComptonScatter.cpp.o -c /home/lujoke/Documents/CPP/MCPhoton/src/ComptonScatter.cpp
+
+src/CMakeFiles/TwoPath_Log.dir/ComptonScatter.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/TwoPath_Log.dir/ComptonScatter.cpp.i"
+	cd /home/lujoke/Documents/CPP/MCPhoton/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/lujoke/Documents/CPP/MCPhoton/src/ComptonScatter.cpp > CMakeFiles/TwoPath_Log.dir/ComptonScatter.cpp.i
+
+src/CMakeFiles/TwoPath_Log.dir/ComptonScatter.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/TwoPath_Log.dir/ComptonScatter.cpp.s"
+	cd /home/lujoke/Documents/CPP/MCPhoton/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/lujoke/Documents/CPP/MCPhoton/src/ComptonScatter.cpp -o CMakeFiles/TwoPath_Log.dir/ComptonScatter.cpp.s
+
+src/CMakeFiles/TwoPath_Log.dir/ComptonScatter.cpp.o.requires:
+.PHONY : src/CMakeFiles/TwoPath_Log.dir/ComptonScatter.cpp.o.requires
+
+src/CMakeFiles/TwoPath_Log.dir/ComptonScatter.cpp.o.provides: src/CMakeFiles/TwoPath_Log.dir/ComptonScatter.cpp.o.requires
+	$(MAKE) -f src/CMakeFiles/TwoPath_Log.dir/build.make src/CMakeFiles/TwoPath_Log.dir/ComptonScatter.cpp.o.provides.build
+.PHONY : src/CMakeFiles/TwoPath_Log.dir/ComptonScatter.cpp.o.provides
+
+src/CMakeFiles/TwoPath_Log.dir/ComptonScatter.cpp.o.provides.build: src/CMakeFiles/TwoPath_Log.dir/ComptonScatter.cpp.o
+
 # Object files for target TwoPath_Log
 TwoPath_Log_OBJECTS = \
 "CMakeFiles/TwoPath_Log.dir/Interpolate.cpp.o" \
 "CMakeFiles/TwoPath_Log.dir/KNRej.cpp.o" \
 "CMakeFiles/TwoPath_Log.dir/KNLinRej.cpp.o" \
 "CMakeFiles/TwoPath_Log.dir/AzimuthalRej.cpp.o" \
-"CMakeFiles/TwoPath_Log.dir/PhotonTransport.cpp.o"
+"CMakeFiles/TwoPath_Log.dir/PhotonTransport.cpp.o" \
+"CMakeFiles/TwoPath_Log.dir/ComptonScatter.cpp.o"
 
 # External object files for target TwoPath_Log
 TwoPath_Log_EXTERNAL_OBJECTS =
@@ -180,6 +204,7 @@ src/MCPhoton: src/CMakeFiles/TwoPath_Log.dir/KNRej.cpp.o
 src/MCPhoton: src/CMakeFiles/TwoPath_Log.dir/KNLinRej.cpp.o
 src/MCPhoton: src/CMakeFiles/TwoPath_Log.dir/AzimuthalRej.cpp.o
 src/MCPhoton: src/CMakeFiles/TwoPath_Log.dir/PhotonTransport.cpp.o
+src/MCPhoton: src/CMakeFiles/TwoPath_Log.dir/ComptonScatter.cpp.o
 src/MCPhoton: src/CMakeFiles/TwoPath_Log.dir/build.make
 src/MCPhoton: src/libLog.a
 src/MCPhoton: src/libTwoPath.a
@@ -196,6 +221,7 @@ src/CMakeFiles/TwoPath_Log.dir/requires: src/CMakeFiles/TwoPath_Log.dir/KNRej.cp
 src/CMakeFiles/TwoPath_Log.dir/requires: src/CMakeFiles/TwoPath_Log.dir/KNLinRej.cpp.o.requires
 src/CMakeFiles/TwoPath_Log.dir/requires: src/CMakeFiles/TwoPath_Log.dir/AzimuthalRej.cpp.o.requires
 src/CMakeFiles/TwoPath_Log.dir/requires: src/CMakeFiles/TwoPath_Log.dir/PhotonTransport.cpp.o.requires
+src/CMakeFiles/TwoPath_Log.dir/requires: src/CMakeFiles/TwoPath_Log.dir/ComptonScatter.cpp.o.requires
 .PHONY : src/CMakeFiles/TwoPath_Log.dir/requires
 
 src/CMakeFiles/TwoPath_Log.dir/clean:

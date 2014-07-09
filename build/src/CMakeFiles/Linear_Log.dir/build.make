@@ -164,13 +164,37 @@ src/CMakeFiles/Linear_Log.dir/PhotonTransport.cpp.o.provides: src/CMakeFiles/Lin
 
 src/CMakeFiles/Linear_Log.dir/PhotonTransport.cpp.o.provides.build: src/CMakeFiles/Linear_Log.dir/PhotonTransport.cpp.o
 
+src/CMakeFiles/Linear_Log.dir/ComptonScatter.cpp.o: src/CMakeFiles/Linear_Log.dir/flags.make
+src/CMakeFiles/Linear_Log.dir/ComptonScatter.cpp.o: ../src/ComptonScatter.cpp
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/lujoke/Documents/CPP/MCPhoton/build/CMakeFiles $(CMAKE_PROGRESS_6)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/CMakeFiles/Linear_Log.dir/ComptonScatter.cpp.o"
+	cd /home/lujoke/Documents/CPP/MCPhoton/build/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/Linear_Log.dir/ComptonScatter.cpp.o -c /home/lujoke/Documents/CPP/MCPhoton/src/ComptonScatter.cpp
+
+src/CMakeFiles/Linear_Log.dir/ComptonScatter.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Linear_Log.dir/ComptonScatter.cpp.i"
+	cd /home/lujoke/Documents/CPP/MCPhoton/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/lujoke/Documents/CPP/MCPhoton/src/ComptonScatter.cpp > CMakeFiles/Linear_Log.dir/ComptonScatter.cpp.i
+
+src/CMakeFiles/Linear_Log.dir/ComptonScatter.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Linear_Log.dir/ComptonScatter.cpp.s"
+	cd /home/lujoke/Documents/CPP/MCPhoton/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/lujoke/Documents/CPP/MCPhoton/src/ComptonScatter.cpp -o CMakeFiles/Linear_Log.dir/ComptonScatter.cpp.s
+
+src/CMakeFiles/Linear_Log.dir/ComptonScatter.cpp.o.requires:
+.PHONY : src/CMakeFiles/Linear_Log.dir/ComptonScatter.cpp.o.requires
+
+src/CMakeFiles/Linear_Log.dir/ComptonScatter.cpp.o.provides: src/CMakeFiles/Linear_Log.dir/ComptonScatter.cpp.o.requires
+	$(MAKE) -f src/CMakeFiles/Linear_Log.dir/build.make src/CMakeFiles/Linear_Log.dir/ComptonScatter.cpp.o.provides.build
+.PHONY : src/CMakeFiles/Linear_Log.dir/ComptonScatter.cpp.o.provides
+
+src/CMakeFiles/Linear_Log.dir/ComptonScatter.cpp.o.provides.build: src/CMakeFiles/Linear_Log.dir/ComptonScatter.cpp.o
+
 # Object files for target Linear_Log
 Linear_Log_OBJECTS = \
 "CMakeFiles/Linear_Log.dir/Interpolate.cpp.o" \
 "CMakeFiles/Linear_Log.dir/KNRej.cpp.o" \
 "CMakeFiles/Linear_Log.dir/KNLinRej.cpp.o" \
 "CMakeFiles/Linear_Log.dir/AzimuthalRej.cpp.o" \
-"CMakeFiles/Linear_Log.dir/PhotonTransport.cpp.o"
+"CMakeFiles/Linear_Log.dir/PhotonTransport.cpp.o" \
+"CMakeFiles/Linear_Log.dir/ComptonScatter.cpp.o"
 
 # External object files for target Linear_Log
 Linear_Log_EXTERNAL_OBJECTS =
@@ -180,6 +204,7 @@ src/MCPhoton: src/CMakeFiles/Linear_Log.dir/KNRej.cpp.o
 src/MCPhoton: src/CMakeFiles/Linear_Log.dir/KNLinRej.cpp.o
 src/MCPhoton: src/CMakeFiles/Linear_Log.dir/AzimuthalRej.cpp.o
 src/MCPhoton: src/CMakeFiles/Linear_Log.dir/PhotonTransport.cpp.o
+src/MCPhoton: src/CMakeFiles/Linear_Log.dir/ComptonScatter.cpp.o
 src/MCPhoton: src/CMakeFiles/Linear_Log.dir/build.make
 src/MCPhoton: src/libLog.a
 src/MCPhoton: src/libLinear.a
@@ -196,6 +221,7 @@ src/CMakeFiles/Linear_Log.dir/requires: src/CMakeFiles/Linear_Log.dir/KNRej.cpp.
 src/CMakeFiles/Linear_Log.dir/requires: src/CMakeFiles/Linear_Log.dir/KNLinRej.cpp.o.requires
 src/CMakeFiles/Linear_Log.dir/requires: src/CMakeFiles/Linear_Log.dir/AzimuthalRej.cpp.o.requires
 src/CMakeFiles/Linear_Log.dir/requires: src/CMakeFiles/Linear_Log.dir/PhotonTransport.cpp.o.requires
+src/CMakeFiles/Linear_Log.dir/requires: src/CMakeFiles/Linear_Log.dir/ComptonScatter.cpp.o.requires
 .PHONY : src/CMakeFiles/Linear_Log.dir/requires
 
 src/CMakeFiles/Linear_Log.dir/clean:

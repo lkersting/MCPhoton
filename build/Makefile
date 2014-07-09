@@ -112,32 +112,6 @@ Constant/fast:
 .PHONY : Constant/fast
 
 #=============================================================================
-# Target rules for targets named Constant_Lin
-
-# Build rule for target.
-Constant_Lin: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 Constant_Lin
-.PHONY : Constant_Lin
-
-# fast build rule for target.
-Constant_Lin/fast:
-	$(MAKE) -f src/CMakeFiles/Constant_Lin.dir/build.make src/CMakeFiles/Constant_Lin.dir/build
-.PHONY : Constant_Lin/fast
-
-#=============================================================================
-# Target rules for targets named Constant_Log
-
-# Build rule for target.
-Constant_Log: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 Constant_Log
-.PHONY : Constant_Log
-
-# fast build rule for target.
-Constant_Log/fast:
-	$(MAKE) -f src/CMakeFiles/Constant_Log.dir/build.make src/CMakeFiles/Constant_Log.dir/build
-.PHONY : Constant_Log/fast
-
-#=============================================================================
 # Target rules for targets named Lin
 
 # Build rule for target.
@@ -162,32 +136,6 @@ Linear: cmake_check_build_system
 Linear/fast:
 	$(MAKE) -f src/CMakeFiles/Linear.dir/build.make src/CMakeFiles/Linear.dir/build
 .PHONY : Linear/fast
-
-#=============================================================================
-# Target rules for targets named Linear_Lin
-
-# Build rule for target.
-Linear_Lin: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 Linear_Lin
-.PHONY : Linear_Lin
-
-# fast build rule for target.
-Linear_Lin/fast:
-	$(MAKE) -f src/CMakeFiles/Linear_Lin.dir/build.make src/CMakeFiles/Linear_Lin.dir/build
-.PHONY : Linear_Lin/fast
-
-#=============================================================================
-# Target rules for targets named Linear_Log
-
-# Build rule for target.
-Linear_Log: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 Linear_Log
-.PHONY : Linear_Log
-
-# fast build rule for target.
-Linear_Log/fast:
-	$(MAKE) -f src/CMakeFiles/Linear_Log.dir/build.make src/CMakeFiles/Linear_Log.dir/build
-.PHONY : Linear_Log/fast
 
 #=============================================================================
 # Target rules for targets named Log
@@ -216,30 +164,82 @@ TwoPath/fast:
 .PHONY : TwoPath/fast
 
 #=============================================================================
-# Target rules for targets named TwoPath_Lin
+# Target rules for targets named constant_lin
 
 # Build rule for target.
-TwoPath_Lin: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 TwoPath_Lin
-.PHONY : TwoPath_Lin
+constant_lin: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 constant_lin
+.PHONY : constant_lin
 
 # fast build rule for target.
-TwoPath_Lin/fast:
-	$(MAKE) -f src/CMakeFiles/TwoPath_Lin.dir/build.make src/CMakeFiles/TwoPath_Lin.dir/build
-.PHONY : TwoPath_Lin/fast
+constant_lin/fast:
+	$(MAKE) -f src/CMakeFiles/constant_lin.dir/build.make src/CMakeFiles/constant_lin.dir/build
+.PHONY : constant_lin/fast
 
 #=============================================================================
-# Target rules for targets named TwoPath_Log
+# Target rules for targets named constant_log
 
 # Build rule for target.
-TwoPath_Log: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 TwoPath_Log
-.PHONY : TwoPath_Log
+constant_log: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 constant_log
+.PHONY : constant_log
 
 # fast build rule for target.
-TwoPath_Log/fast:
-	$(MAKE) -f src/CMakeFiles/TwoPath_Log.dir/build.make src/CMakeFiles/TwoPath_Log.dir/build
-.PHONY : TwoPath_Log/fast
+constant_log/fast:
+	$(MAKE) -f src/CMakeFiles/constant_log.dir/build.make src/CMakeFiles/constant_log.dir/build
+.PHONY : constant_log/fast
+
+#=============================================================================
+# Target rules for targets named linear_lin
+
+# Build rule for target.
+linear_lin: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 linear_lin
+.PHONY : linear_lin
+
+# fast build rule for target.
+linear_lin/fast:
+	$(MAKE) -f src/CMakeFiles/linear_lin.dir/build.make src/CMakeFiles/linear_lin.dir/build
+.PHONY : linear_lin/fast
+
+#=============================================================================
+# Target rules for targets named linear_log
+
+# Build rule for target.
+linear_log: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 linear_log
+.PHONY : linear_log
+
+# fast build rule for target.
+linear_log/fast:
+	$(MAKE) -f src/CMakeFiles/linear_log.dir/build.make src/CMakeFiles/linear_log.dir/build
+.PHONY : linear_log/fast
+
+#=============================================================================
+# Target rules for targets named twopath_lin
+
+# Build rule for target.
+twopath_lin: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 twopath_lin
+.PHONY : twopath_lin
+
+# fast build rule for target.
+twopath_lin/fast:
+	$(MAKE) -f src/CMakeFiles/twopath_lin.dir/build.make src/CMakeFiles/twopath_lin.dir/build
+.PHONY : twopath_lin/fast
+
+#=============================================================================
+# Target rules for targets named twopath_log
+
+# Build rule for target.
+twopath_log: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 twopath_log
+.PHONY : twopath_log
+
+# fast build rule for target.
+twopath_log/fast:
+	$(MAKE) -f src/CMakeFiles/twopath_log.dir/build.make src/CMakeFiles/twopath_log.dir/build
+.PHONY : twopath_log/fast
 
 # Help Target
 help:
@@ -250,16 +250,16 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... Constant"
-	@echo "... Constant_Lin"
-	@echo "... Constant_Log"
 	@echo "... Lin"
 	@echo "... Linear"
-	@echo "... Linear_Lin"
-	@echo "... Linear_Log"
 	@echo "... Log"
 	@echo "... TwoPath"
-	@echo "... TwoPath_Lin"
-	@echo "... TwoPath_Log"
+	@echo "... constant_lin"
+	@echo "... constant_log"
+	@echo "... linear_lin"
+	@echo "... linear_log"
+	@echo "... twopath_lin"
+	@echo "... twopath_log"
 .PHONY : help
 
 

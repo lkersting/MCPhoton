@@ -72,39 +72,14 @@ src/CMakeFiles/Log.dir/MCPhoton.cpp.o.provides: src/CMakeFiles/Log.dir/MCPhoton.
 
 src/CMakeFiles/Log.dir/MCPhoton.cpp.o.provides.build: src/CMakeFiles/Log.dir/MCPhoton.cpp.o
 
-src/CMakeFiles/Log.dir/ComptonScatter.cpp.o: src/CMakeFiles/Log.dir/flags.make
-src/CMakeFiles/Log.dir/ComptonScatter.cpp.o: ../src/ComptonScatter.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/lujoke/Documents/CPP/MCPhoton/build/CMakeFiles $(CMAKE_PROGRESS_2)
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/CMakeFiles/Log.dir/ComptonScatter.cpp.o"
-	cd /home/lujoke/Documents/CPP/MCPhoton/build/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/Log.dir/ComptonScatter.cpp.o -c /home/lujoke/Documents/CPP/MCPhoton/src/ComptonScatter.cpp
-
-src/CMakeFiles/Log.dir/ComptonScatter.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Log.dir/ComptonScatter.cpp.i"
-	cd /home/lujoke/Documents/CPP/MCPhoton/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/lujoke/Documents/CPP/MCPhoton/src/ComptonScatter.cpp > CMakeFiles/Log.dir/ComptonScatter.cpp.i
-
-src/CMakeFiles/Log.dir/ComptonScatter.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Log.dir/ComptonScatter.cpp.s"
-	cd /home/lujoke/Documents/CPP/MCPhoton/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/lujoke/Documents/CPP/MCPhoton/src/ComptonScatter.cpp -o CMakeFiles/Log.dir/ComptonScatter.cpp.s
-
-src/CMakeFiles/Log.dir/ComptonScatter.cpp.o.requires:
-.PHONY : src/CMakeFiles/Log.dir/ComptonScatter.cpp.o.requires
-
-src/CMakeFiles/Log.dir/ComptonScatter.cpp.o.provides: src/CMakeFiles/Log.dir/ComptonScatter.cpp.o.requires
-	$(MAKE) -f src/CMakeFiles/Log.dir/build.make src/CMakeFiles/Log.dir/ComptonScatter.cpp.o.provides.build
-.PHONY : src/CMakeFiles/Log.dir/ComptonScatter.cpp.o.provides
-
-src/CMakeFiles/Log.dir/ComptonScatter.cpp.o.provides.build: src/CMakeFiles/Log.dir/ComptonScatter.cpp.o
-
 # Object files for target Log
 Log_OBJECTS = \
-"CMakeFiles/Log.dir/MCPhoton.cpp.o" \
-"CMakeFiles/Log.dir/ComptonScatter.cpp.o"
+"CMakeFiles/Log.dir/MCPhoton.cpp.o"
 
 # External object files for target Log
 Log_EXTERNAL_OBJECTS =
 
 src/libLog.a: src/CMakeFiles/Log.dir/MCPhoton.cpp.o
-src/libLog.a: src/CMakeFiles/Log.dir/ComptonScatter.cpp.o
 src/libLog.a: src/CMakeFiles/Log.dir/build.make
 src/libLog.a: src/CMakeFiles/Log.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --red --bold "Linking CXX static library libLog.a"
@@ -116,7 +91,6 @@ src/CMakeFiles/Log.dir/build: src/libLog.a
 .PHONY : src/CMakeFiles/Log.dir/build
 
 src/CMakeFiles/Log.dir/requires: src/CMakeFiles/Log.dir/MCPhoton.cpp.o.requires
-src/CMakeFiles/Log.dir/requires: src/CMakeFiles/Log.dir/ComptonScatter.cpp.o.requires
 .PHONY : src/CMakeFiles/Log.dir/requires
 
 src/CMakeFiles/Log.dir/clean:

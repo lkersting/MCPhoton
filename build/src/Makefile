@@ -113,34 +113,6 @@ Constant/fast:
 .PHONY : Constant/fast
 
 # Convenience name for target.
-src/CMakeFiles/Constant_Lin.dir/rule:
-	cd /home/lujoke/Documents/CPP/MCPhoton/build && $(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/Constant_Lin.dir/rule
-.PHONY : src/CMakeFiles/Constant_Lin.dir/rule
-
-# Convenience name for target.
-Constant_Lin: src/CMakeFiles/Constant_Lin.dir/rule
-.PHONY : Constant_Lin
-
-# fast build rule for target.
-Constant_Lin/fast:
-	cd /home/lujoke/Documents/CPP/MCPhoton/build && $(MAKE) -f src/CMakeFiles/Constant_Lin.dir/build.make src/CMakeFiles/Constant_Lin.dir/build
-.PHONY : Constant_Lin/fast
-
-# Convenience name for target.
-src/CMakeFiles/Constant_Log.dir/rule:
-	cd /home/lujoke/Documents/CPP/MCPhoton/build && $(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/Constant_Log.dir/rule
-.PHONY : src/CMakeFiles/Constant_Log.dir/rule
-
-# Convenience name for target.
-Constant_Log: src/CMakeFiles/Constant_Log.dir/rule
-.PHONY : Constant_Log
-
-# fast build rule for target.
-Constant_Log/fast:
-	cd /home/lujoke/Documents/CPP/MCPhoton/build && $(MAKE) -f src/CMakeFiles/Constant_Log.dir/build.make src/CMakeFiles/Constant_Log.dir/build
-.PHONY : Constant_Log/fast
-
-# Convenience name for target.
 src/CMakeFiles/Lin.dir/rule:
 	cd /home/lujoke/Documents/CPP/MCPhoton/build && $(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/Lin.dir/rule
 .PHONY : src/CMakeFiles/Lin.dir/rule
@@ -167,34 +139,6 @@ Linear: src/CMakeFiles/Linear.dir/rule
 Linear/fast:
 	cd /home/lujoke/Documents/CPP/MCPhoton/build && $(MAKE) -f src/CMakeFiles/Linear.dir/build.make src/CMakeFiles/Linear.dir/build
 .PHONY : Linear/fast
-
-# Convenience name for target.
-src/CMakeFiles/Linear_Lin.dir/rule:
-	cd /home/lujoke/Documents/CPP/MCPhoton/build && $(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/Linear_Lin.dir/rule
-.PHONY : src/CMakeFiles/Linear_Lin.dir/rule
-
-# Convenience name for target.
-Linear_Lin: src/CMakeFiles/Linear_Lin.dir/rule
-.PHONY : Linear_Lin
-
-# fast build rule for target.
-Linear_Lin/fast:
-	cd /home/lujoke/Documents/CPP/MCPhoton/build && $(MAKE) -f src/CMakeFiles/Linear_Lin.dir/build.make src/CMakeFiles/Linear_Lin.dir/build
-.PHONY : Linear_Lin/fast
-
-# Convenience name for target.
-src/CMakeFiles/Linear_Log.dir/rule:
-	cd /home/lujoke/Documents/CPP/MCPhoton/build && $(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/Linear_Log.dir/rule
-.PHONY : src/CMakeFiles/Linear_Log.dir/rule
-
-# Convenience name for target.
-Linear_Log: src/CMakeFiles/Linear_Log.dir/rule
-.PHONY : Linear_Log
-
-# fast build rule for target.
-Linear_Log/fast:
-	cd /home/lujoke/Documents/CPP/MCPhoton/build && $(MAKE) -f src/CMakeFiles/Linear_Log.dir/build.make src/CMakeFiles/Linear_Log.dir/build
-.PHONY : Linear_Log/fast
 
 # Convenience name for target.
 src/CMakeFiles/Log.dir/rule:
@@ -225,44 +169,100 @@ TwoPath/fast:
 .PHONY : TwoPath/fast
 
 # Convenience name for target.
-src/CMakeFiles/TwoPath_Lin.dir/rule:
-	cd /home/lujoke/Documents/CPP/MCPhoton/build && $(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/TwoPath_Lin.dir/rule
-.PHONY : src/CMakeFiles/TwoPath_Lin.dir/rule
+src/CMakeFiles/constant_lin.dir/rule:
+	cd /home/lujoke/Documents/CPP/MCPhoton/build && $(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/constant_lin.dir/rule
+.PHONY : src/CMakeFiles/constant_lin.dir/rule
 
 # Convenience name for target.
-TwoPath_Lin: src/CMakeFiles/TwoPath_Lin.dir/rule
-.PHONY : TwoPath_Lin
+constant_lin: src/CMakeFiles/constant_lin.dir/rule
+.PHONY : constant_lin
 
 # fast build rule for target.
-TwoPath_Lin/fast:
-	cd /home/lujoke/Documents/CPP/MCPhoton/build && $(MAKE) -f src/CMakeFiles/TwoPath_Lin.dir/build.make src/CMakeFiles/TwoPath_Lin.dir/build
-.PHONY : TwoPath_Lin/fast
+constant_lin/fast:
+	cd /home/lujoke/Documents/CPP/MCPhoton/build && $(MAKE) -f src/CMakeFiles/constant_lin.dir/build.make src/CMakeFiles/constant_lin.dir/build
+.PHONY : constant_lin/fast
 
 # Convenience name for target.
-src/CMakeFiles/TwoPath_Log.dir/rule:
-	cd /home/lujoke/Documents/CPP/MCPhoton/build && $(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/TwoPath_Log.dir/rule
-.PHONY : src/CMakeFiles/TwoPath_Log.dir/rule
+src/CMakeFiles/constant_log.dir/rule:
+	cd /home/lujoke/Documents/CPP/MCPhoton/build && $(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/constant_log.dir/rule
+.PHONY : src/CMakeFiles/constant_log.dir/rule
 
 # Convenience name for target.
-TwoPath_Log: src/CMakeFiles/TwoPath_Log.dir/rule
-.PHONY : TwoPath_Log
+constant_log: src/CMakeFiles/constant_log.dir/rule
+.PHONY : constant_log
 
 # fast build rule for target.
-TwoPath_Log/fast:
-	cd /home/lujoke/Documents/CPP/MCPhoton/build && $(MAKE) -f src/CMakeFiles/TwoPath_Log.dir/build.make src/CMakeFiles/TwoPath_Log.dir/build
-.PHONY : TwoPath_Log/fast
+constant_log/fast:
+	cd /home/lujoke/Documents/CPP/MCPhoton/build && $(MAKE) -f src/CMakeFiles/constant_log.dir/build.make src/CMakeFiles/constant_log.dir/build
+.PHONY : constant_log/fast
+
+# Convenience name for target.
+src/CMakeFiles/linear_lin.dir/rule:
+	cd /home/lujoke/Documents/CPP/MCPhoton/build && $(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/linear_lin.dir/rule
+.PHONY : src/CMakeFiles/linear_lin.dir/rule
+
+# Convenience name for target.
+linear_lin: src/CMakeFiles/linear_lin.dir/rule
+.PHONY : linear_lin
+
+# fast build rule for target.
+linear_lin/fast:
+	cd /home/lujoke/Documents/CPP/MCPhoton/build && $(MAKE) -f src/CMakeFiles/linear_lin.dir/build.make src/CMakeFiles/linear_lin.dir/build
+.PHONY : linear_lin/fast
+
+# Convenience name for target.
+src/CMakeFiles/linear_log.dir/rule:
+	cd /home/lujoke/Documents/CPP/MCPhoton/build && $(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/linear_log.dir/rule
+.PHONY : src/CMakeFiles/linear_log.dir/rule
+
+# Convenience name for target.
+linear_log: src/CMakeFiles/linear_log.dir/rule
+.PHONY : linear_log
+
+# fast build rule for target.
+linear_log/fast:
+	cd /home/lujoke/Documents/CPP/MCPhoton/build && $(MAKE) -f src/CMakeFiles/linear_log.dir/build.make src/CMakeFiles/linear_log.dir/build
+.PHONY : linear_log/fast
+
+# Convenience name for target.
+src/CMakeFiles/twopath_lin.dir/rule:
+	cd /home/lujoke/Documents/CPP/MCPhoton/build && $(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/twopath_lin.dir/rule
+.PHONY : src/CMakeFiles/twopath_lin.dir/rule
+
+# Convenience name for target.
+twopath_lin: src/CMakeFiles/twopath_lin.dir/rule
+.PHONY : twopath_lin
+
+# fast build rule for target.
+twopath_lin/fast:
+	cd /home/lujoke/Documents/CPP/MCPhoton/build && $(MAKE) -f src/CMakeFiles/twopath_lin.dir/build.make src/CMakeFiles/twopath_lin.dir/build
+.PHONY : twopath_lin/fast
+
+# Convenience name for target.
+src/CMakeFiles/twopath_log.dir/rule:
+	cd /home/lujoke/Documents/CPP/MCPhoton/build && $(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/twopath_log.dir/rule
+.PHONY : src/CMakeFiles/twopath_log.dir/rule
+
+# Convenience name for target.
+twopath_log: src/CMakeFiles/twopath_log.dir/rule
+.PHONY : twopath_log
+
+# fast build rule for target.
+twopath_log/fast:
+	cd /home/lujoke/Documents/CPP/MCPhoton/build && $(MAKE) -f src/CMakeFiles/twopath_log.dir/build.make src/CMakeFiles/twopath_log.dir/build
+.PHONY : twopath_log/fast
 
 AzimuthalRej.o: AzimuthalRej.cpp.o
 .PHONY : AzimuthalRej.o
 
 # target to build an object file
 AzimuthalRej.cpp.o:
-	cd /home/lujoke/Documents/CPP/MCPhoton/build && $(MAKE) -f src/CMakeFiles/Constant_Lin.dir/build.make src/CMakeFiles/Constant_Lin.dir/AzimuthalRej.cpp.o
-	cd /home/lujoke/Documents/CPP/MCPhoton/build && $(MAKE) -f src/CMakeFiles/Constant_Log.dir/build.make src/CMakeFiles/Constant_Log.dir/AzimuthalRej.cpp.o
-	cd /home/lujoke/Documents/CPP/MCPhoton/build && $(MAKE) -f src/CMakeFiles/Linear_Lin.dir/build.make src/CMakeFiles/Linear_Lin.dir/AzimuthalRej.cpp.o
-	cd /home/lujoke/Documents/CPP/MCPhoton/build && $(MAKE) -f src/CMakeFiles/Linear_Log.dir/build.make src/CMakeFiles/Linear_Log.dir/AzimuthalRej.cpp.o
-	cd /home/lujoke/Documents/CPP/MCPhoton/build && $(MAKE) -f src/CMakeFiles/TwoPath_Lin.dir/build.make src/CMakeFiles/TwoPath_Lin.dir/AzimuthalRej.cpp.o
-	cd /home/lujoke/Documents/CPP/MCPhoton/build && $(MAKE) -f src/CMakeFiles/TwoPath_Log.dir/build.make src/CMakeFiles/TwoPath_Log.dir/AzimuthalRej.cpp.o
+	cd /home/lujoke/Documents/CPP/MCPhoton/build && $(MAKE) -f src/CMakeFiles/constant_lin.dir/build.make src/CMakeFiles/constant_lin.dir/AzimuthalRej.cpp.o
+	cd /home/lujoke/Documents/CPP/MCPhoton/build && $(MAKE) -f src/CMakeFiles/constant_log.dir/build.make src/CMakeFiles/constant_log.dir/AzimuthalRej.cpp.o
+	cd /home/lujoke/Documents/CPP/MCPhoton/build && $(MAKE) -f src/CMakeFiles/linear_lin.dir/build.make src/CMakeFiles/linear_lin.dir/AzimuthalRej.cpp.o
+	cd /home/lujoke/Documents/CPP/MCPhoton/build && $(MAKE) -f src/CMakeFiles/linear_log.dir/build.make src/CMakeFiles/linear_log.dir/AzimuthalRej.cpp.o
+	cd /home/lujoke/Documents/CPP/MCPhoton/build && $(MAKE) -f src/CMakeFiles/twopath_lin.dir/build.make src/CMakeFiles/twopath_lin.dir/AzimuthalRej.cpp.o
+	cd /home/lujoke/Documents/CPP/MCPhoton/build && $(MAKE) -f src/CMakeFiles/twopath_log.dir/build.make src/CMakeFiles/twopath_log.dir/AzimuthalRej.cpp.o
 .PHONY : AzimuthalRej.cpp.o
 
 AzimuthalRej.i: AzimuthalRej.cpp.i
@@ -270,12 +270,12 @@ AzimuthalRej.i: AzimuthalRej.cpp.i
 
 # target to preprocess a source file
 AzimuthalRej.cpp.i:
-	cd /home/lujoke/Documents/CPP/MCPhoton/build && $(MAKE) -f src/CMakeFiles/Constant_Lin.dir/build.make src/CMakeFiles/Constant_Lin.dir/AzimuthalRej.cpp.i
-	cd /home/lujoke/Documents/CPP/MCPhoton/build && $(MAKE) -f src/CMakeFiles/Constant_Log.dir/build.make src/CMakeFiles/Constant_Log.dir/AzimuthalRej.cpp.i
-	cd /home/lujoke/Documents/CPP/MCPhoton/build && $(MAKE) -f src/CMakeFiles/Linear_Lin.dir/build.make src/CMakeFiles/Linear_Lin.dir/AzimuthalRej.cpp.i
-	cd /home/lujoke/Documents/CPP/MCPhoton/build && $(MAKE) -f src/CMakeFiles/Linear_Log.dir/build.make src/CMakeFiles/Linear_Log.dir/AzimuthalRej.cpp.i
-	cd /home/lujoke/Documents/CPP/MCPhoton/build && $(MAKE) -f src/CMakeFiles/TwoPath_Lin.dir/build.make src/CMakeFiles/TwoPath_Lin.dir/AzimuthalRej.cpp.i
-	cd /home/lujoke/Documents/CPP/MCPhoton/build && $(MAKE) -f src/CMakeFiles/TwoPath_Log.dir/build.make src/CMakeFiles/TwoPath_Log.dir/AzimuthalRej.cpp.i
+	cd /home/lujoke/Documents/CPP/MCPhoton/build && $(MAKE) -f src/CMakeFiles/constant_lin.dir/build.make src/CMakeFiles/constant_lin.dir/AzimuthalRej.cpp.i
+	cd /home/lujoke/Documents/CPP/MCPhoton/build && $(MAKE) -f src/CMakeFiles/constant_log.dir/build.make src/CMakeFiles/constant_log.dir/AzimuthalRej.cpp.i
+	cd /home/lujoke/Documents/CPP/MCPhoton/build && $(MAKE) -f src/CMakeFiles/linear_lin.dir/build.make src/CMakeFiles/linear_lin.dir/AzimuthalRej.cpp.i
+	cd /home/lujoke/Documents/CPP/MCPhoton/build && $(MAKE) -f src/CMakeFiles/linear_log.dir/build.make src/CMakeFiles/linear_log.dir/AzimuthalRej.cpp.i
+	cd /home/lujoke/Documents/CPP/MCPhoton/build && $(MAKE) -f src/CMakeFiles/twopath_lin.dir/build.make src/CMakeFiles/twopath_lin.dir/AzimuthalRej.cpp.i
+	cd /home/lujoke/Documents/CPP/MCPhoton/build && $(MAKE) -f src/CMakeFiles/twopath_log.dir/build.make src/CMakeFiles/twopath_log.dir/AzimuthalRej.cpp.i
 .PHONY : AzimuthalRej.cpp.i
 
 AzimuthalRej.s: AzimuthalRej.cpp.s
@@ -283,12 +283,12 @@ AzimuthalRej.s: AzimuthalRej.cpp.s
 
 # target to generate assembly for a file
 AzimuthalRej.cpp.s:
-	cd /home/lujoke/Documents/CPP/MCPhoton/build && $(MAKE) -f src/CMakeFiles/Constant_Lin.dir/build.make src/CMakeFiles/Constant_Lin.dir/AzimuthalRej.cpp.s
-	cd /home/lujoke/Documents/CPP/MCPhoton/build && $(MAKE) -f src/CMakeFiles/Constant_Log.dir/build.make src/CMakeFiles/Constant_Log.dir/AzimuthalRej.cpp.s
-	cd /home/lujoke/Documents/CPP/MCPhoton/build && $(MAKE) -f src/CMakeFiles/Linear_Lin.dir/build.make src/CMakeFiles/Linear_Lin.dir/AzimuthalRej.cpp.s
-	cd /home/lujoke/Documents/CPP/MCPhoton/build && $(MAKE) -f src/CMakeFiles/Linear_Log.dir/build.make src/CMakeFiles/Linear_Log.dir/AzimuthalRej.cpp.s
-	cd /home/lujoke/Documents/CPP/MCPhoton/build && $(MAKE) -f src/CMakeFiles/TwoPath_Lin.dir/build.make src/CMakeFiles/TwoPath_Lin.dir/AzimuthalRej.cpp.s
-	cd /home/lujoke/Documents/CPP/MCPhoton/build && $(MAKE) -f src/CMakeFiles/TwoPath_Log.dir/build.make src/CMakeFiles/TwoPath_Log.dir/AzimuthalRej.cpp.s
+	cd /home/lujoke/Documents/CPP/MCPhoton/build && $(MAKE) -f src/CMakeFiles/constant_lin.dir/build.make src/CMakeFiles/constant_lin.dir/AzimuthalRej.cpp.s
+	cd /home/lujoke/Documents/CPP/MCPhoton/build && $(MAKE) -f src/CMakeFiles/constant_log.dir/build.make src/CMakeFiles/constant_log.dir/AzimuthalRej.cpp.s
+	cd /home/lujoke/Documents/CPP/MCPhoton/build && $(MAKE) -f src/CMakeFiles/linear_lin.dir/build.make src/CMakeFiles/linear_lin.dir/AzimuthalRej.cpp.s
+	cd /home/lujoke/Documents/CPP/MCPhoton/build && $(MAKE) -f src/CMakeFiles/linear_log.dir/build.make src/CMakeFiles/linear_log.dir/AzimuthalRej.cpp.s
+	cd /home/lujoke/Documents/CPP/MCPhoton/build && $(MAKE) -f src/CMakeFiles/twopath_lin.dir/build.make src/CMakeFiles/twopath_lin.dir/AzimuthalRej.cpp.s
+	cd /home/lujoke/Documents/CPP/MCPhoton/build && $(MAKE) -f src/CMakeFiles/twopath_log.dir/build.make src/CMakeFiles/twopath_log.dir/AzimuthalRej.cpp.s
 .PHONY : AzimuthalRej.cpp.s
 
 ComptonScatter.o: ComptonScatter.cpp.o
@@ -296,8 +296,8 @@ ComptonScatter.o: ComptonScatter.cpp.o
 
 # target to build an object file
 ComptonScatter.cpp.o:
-	cd /home/lujoke/Documents/CPP/MCPhoton/build && $(MAKE) -f src/CMakeFiles/Lin.dir/build.make src/CMakeFiles/Lin.dir/ComptonScatter.cpp.o
-	cd /home/lujoke/Documents/CPP/MCPhoton/build && $(MAKE) -f src/CMakeFiles/Log.dir/build.make src/CMakeFiles/Log.dir/ComptonScatter.cpp.o
+	cd /home/lujoke/Documents/CPP/MCPhoton/build && $(MAKE) -f src/CMakeFiles/twopath_lin.dir/build.make src/CMakeFiles/twopath_lin.dir/ComptonScatter.cpp.o
+	cd /home/lujoke/Documents/CPP/MCPhoton/build && $(MAKE) -f src/CMakeFiles/twopath_log.dir/build.make src/CMakeFiles/twopath_log.dir/ComptonScatter.cpp.o
 .PHONY : ComptonScatter.cpp.o
 
 ComptonScatter.i: ComptonScatter.cpp.i
@@ -305,8 +305,8 @@ ComptonScatter.i: ComptonScatter.cpp.i
 
 # target to preprocess a source file
 ComptonScatter.cpp.i:
-	cd /home/lujoke/Documents/CPP/MCPhoton/build && $(MAKE) -f src/CMakeFiles/Lin.dir/build.make src/CMakeFiles/Lin.dir/ComptonScatter.cpp.i
-	cd /home/lujoke/Documents/CPP/MCPhoton/build && $(MAKE) -f src/CMakeFiles/Log.dir/build.make src/CMakeFiles/Log.dir/ComptonScatter.cpp.i
+	cd /home/lujoke/Documents/CPP/MCPhoton/build && $(MAKE) -f src/CMakeFiles/twopath_lin.dir/build.make src/CMakeFiles/twopath_lin.dir/ComptonScatter.cpp.i
+	cd /home/lujoke/Documents/CPP/MCPhoton/build && $(MAKE) -f src/CMakeFiles/twopath_log.dir/build.make src/CMakeFiles/twopath_log.dir/ComptonScatter.cpp.i
 .PHONY : ComptonScatter.cpp.i
 
 ComptonScatter.s: ComptonScatter.cpp.s
@@ -314,8 +314,8 @@ ComptonScatter.s: ComptonScatter.cpp.s
 
 # target to generate assembly for a file
 ComptonScatter.cpp.s:
-	cd /home/lujoke/Documents/CPP/MCPhoton/build && $(MAKE) -f src/CMakeFiles/Lin.dir/build.make src/CMakeFiles/Lin.dir/ComptonScatter.cpp.s
-	cd /home/lujoke/Documents/CPP/MCPhoton/build && $(MAKE) -f src/CMakeFiles/Log.dir/build.make src/CMakeFiles/Log.dir/ComptonScatter.cpp.s
+	cd /home/lujoke/Documents/CPP/MCPhoton/build && $(MAKE) -f src/CMakeFiles/twopath_lin.dir/build.make src/CMakeFiles/twopath_lin.dir/ComptonScatter.cpp.s
+	cd /home/lujoke/Documents/CPP/MCPhoton/build && $(MAKE) -f src/CMakeFiles/twopath_log.dir/build.make src/CMakeFiles/twopath_log.dir/ComptonScatter.cpp.s
 .PHONY : ComptonScatter.cpp.s
 
 Interpolate.o: Interpolate.cpp.o
@@ -323,12 +323,12 @@ Interpolate.o: Interpolate.cpp.o
 
 # target to build an object file
 Interpolate.cpp.o:
-	cd /home/lujoke/Documents/CPP/MCPhoton/build && $(MAKE) -f src/CMakeFiles/Constant_Lin.dir/build.make src/CMakeFiles/Constant_Lin.dir/Interpolate.cpp.o
-	cd /home/lujoke/Documents/CPP/MCPhoton/build && $(MAKE) -f src/CMakeFiles/Constant_Log.dir/build.make src/CMakeFiles/Constant_Log.dir/Interpolate.cpp.o
-	cd /home/lujoke/Documents/CPP/MCPhoton/build && $(MAKE) -f src/CMakeFiles/Linear_Lin.dir/build.make src/CMakeFiles/Linear_Lin.dir/Interpolate.cpp.o
-	cd /home/lujoke/Documents/CPP/MCPhoton/build && $(MAKE) -f src/CMakeFiles/Linear_Log.dir/build.make src/CMakeFiles/Linear_Log.dir/Interpolate.cpp.o
-	cd /home/lujoke/Documents/CPP/MCPhoton/build && $(MAKE) -f src/CMakeFiles/TwoPath_Lin.dir/build.make src/CMakeFiles/TwoPath_Lin.dir/Interpolate.cpp.o
-	cd /home/lujoke/Documents/CPP/MCPhoton/build && $(MAKE) -f src/CMakeFiles/TwoPath_Log.dir/build.make src/CMakeFiles/TwoPath_Log.dir/Interpolate.cpp.o
+	cd /home/lujoke/Documents/CPP/MCPhoton/build && $(MAKE) -f src/CMakeFiles/constant_lin.dir/build.make src/CMakeFiles/constant_lin.dir/Interpolate.cpp.o
+	cd /home/lujoke/Documents/CPP/MCPhoton/build && $(MAKE) -f src/CMakeFiles/constant_log.dir/build.make src/CMakeFiles/constant_log.dir/Interpolate.cpp.o
+	cd /home/lujoke/Documents/CPP/MCPhoton/build && $(MAKE) -f src/CMakeFiles/linear_lin.dir/build.make src/CMakeFiles/linear_lin.dir/Interpolate.cpp.o
+	cd /home/lujoke/Documents/CPP/MCPhoton/build && $(MAKE) -f src/CMakeFiles/linear_log.dir/build.make src/CMakeFiles/linear_log.dir/Interpolate.cpp.o
+	cd /home/lujoke/Documents/CPP/MCPhoton/build && $(MAKE) -f src/CMakeFiles/twopath_lin.dir/build.make src/CMakeFiles/twopath_lin.dir/Interpolate.cpp.o
+	cd /home/lujoke/Documents/CPP/MCPhoton/build && $(MAKE) -f src/CMakeFiles/twopath_log.dir/build.make src/CMakeFiles/twopath_log.dir/Interpolate.cpp.o
 .PHONY : Interpolate.cpp.o
 
 Interpolate.i: Interpolate.cpp.i
@@ -336,12 +336,12 @@ Interpolate.i: Interpolate.cpp.i
 
 # target to preprocess a source file
 Interpolate.cpp.i:
-	cd /home/lujoke/Documents/CPP/MCPhoton/build && $(MAKE) -f src/CMakeFiles/Constant_Lin.dir/build.make src/CMakeFiles/Constant_Lin.dir/Interpolate.cpp.i
-	cd /home/lujoke/Documents/CPP/MCPhoton/build && $(MAKE) -f src/CMakeFiles/Constant_Log.dir/build.make src/CMakeFiles/Constant_Log.dir/Interpolate.cpp.i
-	cd /home/lujoke/Documents/CPP/MCPhoton/build && $(MAKE) -f src/CMakeFiles/Linear_Lin.dir/build.make src/CMakeFiles/Linear_Lin.dir/Interpolate.cpp.i
-	cd /home/lujoke/Documents/CPP/MCPhoton/build && $(MAKE) -f src/CMakeFiles/Linear_Log.dir/build.make src/CMakeFiles/Linear_Log.dir/Interpolate.cpp.i
-	cd /home/lujoke/Documents/CPP/MCPhoton/build && $(MAKE) -f src/CMakeFiles/TwoPath_Lin.dir/build.make src/CMakeFiles/TwoPath_Lin.dir/Interpolate.cpp.i
-	cd /home/lujoke/Documents/CPP/MCPhoton/build && $(MAKE) -f src/CMakeFiles/TwoPath_Log.dir/build.make src/CMakeFiles/TwoPath_Log.dir/Interpolate.cpp.i
+	cd /home/lujoke/Documents/CPP/MCPhoton/build && $(MAKE) -f src/CMakeFiles/constant_lin.dir/build.make src/CMakeFiles/constant_lin.dir/Interpolate.cpp.i
+	cd /home/lujoke/Documents/CPP/MCPhoton/build && $(MAKE) -f src/CMakeFiles/constant_log.dir/build.make src/CMakeFiles/constant_log.dir/Interpolate.cpp.i
+	cd /home/lujoke/Documents/CPP/MCPhoton/build && $(MAKE) -f src/CMakeFiles/linear_lin.dir/build.make src/CMakeFiles/linear_lin.dir/Interpolate.cpp.i
+	cd /home/lujoke/Documents/CPP/MCPhoton/build && $(MAKE) -f src/CMakeFiles/linear_log.dir/build.make src/CMakeFiles/linear_log.dir/Interpolate.cpp.i
+	cd /home/lujoke/Documents/CPP/MCPhoton/build && $(MAKE) -f src/CMakeFiles/twopath_lin.dir/build.make src/CMakeFiles/twopath_lin.dir/Interpolate.cpp.i
+	cd /home/lujoke/Documents/CPP/MCPhoton/build && $(MAKE) -f src/CMakeFiles/twopath_log.dir/build.make src/CMakeFiles/twopath_log.dir/Interpolate.cpp.i
 .PHONY : Interpolate.cpp.i
 
 Interpolate.s: Interpolate.cpp.s
@@ -349,12 +349,12 @@ Interpolate.s: Interpolate.cpp.s
 
 # target to generate assembly for a file
 Interpolate.cpp.s:
-	cd /home/lujoke/Documents/CPP/MCPhoton/build && $(MAKE) -f src/CMakeFiles/Constant_Lin.dir/build.make src/CMakeFiles/Constant_Lin.dir/Interpolate.cpp.s
-	cd /home/lujoke/Documents/CPP/MCPhoton/build && $(MAKE) -f src/CMakeFiles/Constant_Log.dir/build.make src/CMakeFiles/Constant_Log.dir/Interpolate.cpp.s
-	cd /home/lujoke/Documents/CPP/MCPhoton/build && $(MAKE) -f src/CMakeFiles/Linear_Lin.dir/build.make src/CMakeFiles/Linear_Lin.dir/Interpolate.cpp.s
-	cd /home/lujoke/Documents/CPP/MCPhoton/build && $(MAKE) -f src/CMakeFiles/Linear_Log.dir/build.make src/CMakeFiles/Linear_Log.dir/Interpolate.cpp.s
-	cd /home/lujoke/Documents/CPP/MCPhoton/build && $(MAKE) -f src/CMakeFiles/TwoPath_Lin.dir/build.make src/CMakeFiles/TwoPath_Lin.dir/Interpolate.cpp.s
-	cd /home/lujoke/Documents/CPP/MCPhoton/build && $(MAKE) -f src/CMakeFiles/TwoPath_Log.dir/build.make src/CMakeFiles/TwoPath_Log.dir/Interpolate.cpp.s
+	cd /home/lujoke/Documents/CPP/MCPhoton/build && $(MAKE) -f src/CMakeFiles/constant_lin.dir/build.make src/CMakeFiles/constant_lin.dir/Interpolate.cpp.s
+	cd /home/lujoke/Documents/CPP/MCPhoton/build && $(MAKE) -f src/CMakeFiles/constant_log.dir/build.make src/CMakeFiles/constant_log.dir/Interpolate.cpp.s
+	cd /home/lujoke/Documents/CPP/MCPhoton/build && $(MAKE) -f src/CMakeFiles/linear_lin.dir/build.make src/CMakeFiles/linear_lin.dir/Interpolate.cpp.s
+	cd /home/lujoke/Documents/CPP/MCPhoton/build && $(MAKE) -f src/CMakeFiles/linear_log.dir/build.make src/CMakeFiles/linear_log.dir/Interpolate.cpp.s
+	cd /home/lujoke/Documents/CPP/MCPhoton/build && $(MAKE) -f src/CMakeFiles/twopath_lin.dir/build.make src/CMakeFiles/twopath_lin.dir/Interpolate.cpp.s
+	cd /home/lujoke/Documents/CPP/MCPhoton/build && $(MAKE) -f src/CMakeFiles/twopath_log.dir/build.make src/CMakeFiles/twopath_log.dir/Interpolate.cpp.s
 .PHONY : Interpolate.cpp.s
 
 KNLinRej.o: KNLinRej.cpp.o
@@ -362,12 +362,12 @@ KNLinRej.o: KNLinRej.cpp.o
 
 # target to build an object file
 KNLinRej.cpp.o:
-	cd /home/lujoke/Documents/CPP/MCPhoton/build && $(MAKE) -f src/CMakeFiles/Constant_Lin.dir/build.make src/CMakeFiles/Constant_Lin.dir/KNLinRej.cpp.o
-	cd /home/lujoke/Documents/CPP/MCPhoton/build && $(MAKE) -f src/CMakeFiles/Constant_Log.dir/build.make src/CMakeFiles/Constant_Log.dir/KNLinRej.cpp.o
-	cd /home/lujoke/Documents/CPP/MCPhoton/build && $(MAKE) -f src/CMakeFiles/Linear_Lin.dir/build.make src/CMakeFiles/Linear_Lin.dir/KNLinRej.cpp.o
-	cd /home/lujoke/Documents/CPP/MCPhoton/build && $(MAKE) -f src/CMakeFiles/Linear_Log.dir/build.make src/CMakeFiles/Linear_Log.dir/KNLinRej.cpp.o
-	cd /home/lujoke/Documents/CPP/MCPhoton/build && $(MAKE) -f src/CMakeFiles/TwoPath_Lin.dir/build.make src/CMakeFiles/TwoPath_Lin.dir/KNLinRej.cpp.o
-	cd /home/lujoke/Documents/CPP/MCPhoton/build && $(MAKE) -f src/CMakeFiles/TwoPath_Log.dir/build.make src/CMakeFiles/TwoPath_Log.dir/KNLinRej.cpp.o
+	cd /home/lujoke/Documents/CPP/MCPhoton/build && $(MAKE) -f src/CMakeFiles/constant_lin.dir/build.make src/CMakeFiles/constant_lin.dir/KNLinRej.cpp.o
+	cd /home/lujoke/Documents/CPP/MCPhoton/build && $(MAKE) -f src/CMakeFiles/constant_log.dir/build.make src/CMakeFiles/constant_log.dir/KNLinRej.cpp.o
+	cd /home/lujoke/Documents/CPP/MCPhoton/build && $(MAKE) -f src/CMakeFiles/linear_lin.dir/build.make src/CMakeFiles/linear_lin.dir/KNLinRej.cpp.o
+	cd /home/lujoke/Documents/CPP/MCPhoton/build && $(MAKE) -f src/CMakeFiles/linear_log.dir/build.make src/CMakeFiles/linear_log.dir/KNLinRej.cpp.o
+	cd /home/lujoke/Documents/CPP/MCPhoton/build && $(MAKE) -f src/CMakeFiles/twopath_lin.dir/build.make src/CMakeFiles/twopath_lin.dir/KNLinRej.cpp.o
+	cd /home/lujoke/Documents/CPP/MCPhoton/build && $(MAKE) -f src/CMakeFiles/twopath_log.dir/build.make src/CMakeFiles/twopath_log.dir/KNLinRej.cpp.o
 .PHONY : KNLinRej.cpp.o
 
 KNLinRej.i: KNLinRej.cpp.i
@@ -375,12 +375,12 @@ KNLinRej.i: KNLinRej.cpp.i
 
 # target to preprocess a source file
 KNLinRej.cpp.i:
-	cd /home/lujoke/Documents/CPP/MCPhoton/build && $(MAKE) -f src/CMakeFiles/Constant_Lin.dir/build.make src/CMakeFiles/Constant_Lin.dir/KNLinRej.cpp.i
-	cd /home/lujoke/Documents/CPP/MCPhoton/build && $(MAKE) -f src/CMakeFiles/Constant_Log.dir/build.make src/CMakeFiles/Constant_Log.dir/KNLinRej.cpp.i
-	cd /home/lujoke/Documents/CPP/MCPhoton/build && $(MAKE) -f src/CMakeFiles/Linear_Lin.dir/build.make src/CMakeFiles/Linear_Lin.dir/KNLinRej.cpp.i
-	cd /home/lujoke/Documents/CPP/MCPhoton/build && $(MAKE) -f src/CMakeFiles/Linear_Log.dir/build.make src/CMakeFiles/Linear_Log.dir/KNLinRej.cpp.i
-	cd /home/lujoke/Documents/CPP/MCPhoton/build && $(MAKE) -f src/CMakeFiles/TwoPath_Lin.dir/build.make src/CMakeFiles/TwoPath_Lin.dir/KNLinRej.cpp.i
-	cd /home/lujoke/Documents/CPP/MCPhoton/build && $(MAKE) -f src/CMakeFiles/TwoPath_Log.dir/build.make src/CMakeFiles/TwoPath_Log.dir/KNLinRej.cpp.i
+	cd /home/lujoke/Documents/CPP/MCPhoton/build && $(MAKE) -f src/CMakeFiles/constant_lin.dir/build.make src/CMakeFiles/constant_lin.dir/KNLinRej.cpp.i
+	cd /home/lujoke/Documents/CPP/MCPhoton/build && $(MAKE) -f src/CMakeFiles/constant_log.dir/build.make src/CMakeFiles/constant_log.dir/KNLinRej.cpp.i
+	cd /home/lujoke/Documents/CPP/MCPhoton/build && $(MAKE) -f src/CMakeFiles/linear_lin.dir/build.make src/CMakeFiles/linear_lin.dir/KNLinRej.cpp.i
+	cd /home/lujoke/Documents/CPP/MCPhoton/build && $(MAKE) -f src/CMakeFiles/linear_log.dir/build.make src/CMakeFiles/linear_log.dir/KNLinRej.cpp.i
+	cd /home/lujoke/Documents/CPP/MCPhoton/build && $(MAKE) -f src/CMakeFiles/twopath_lin.dir/build.make src/CMakeFiles/twopath_lin.dir/KNLinRej.cpp.i
+	cd /home/lujoke/Documents/CPP/MCPhoton/build && $(MAKE) -f src/CMakeFiles/twopath_log.dir/build.make src/CMakeFiles/twopath_log.dir/KNLinRej.cpp.i
 .PHONY : KNLinRej.cpp.i
 
 KNLinRej.s: KNLinRej.cpp.s
@@ -388,12 +388,12 @@ KNLinRej.s: KNLinRej.cpp.s
 
 # target to generate assembly for a file
 KNLinRej.cpp.s:
-	cd /home/lujoke/Documents/CPP/MCPhoton/build && $(MAKE) -f src/CMakeFiles/Constant_Lin.dir/build.make src/CMakeFiles/Constant_Lin.dir/KNLinRej.cpp.s
-	cd /home/lujoke/Documents/CPP/MCPhoton/build && $(MAKE) -f src/CMakeFiles/Constant_Log.dir/build.make src/CMakeFiles/Constant_Log.dir/KNLinRej.cpp.s
-	cd /home/lujoke/Documents/CPP/MCPhoton/build && $(MAKE) -f src/CMakeFiles/Linear_Lin.dir/build.make src/CMakeFiles/Linear_Lin.dir/KNLinRej.cpp.s
-	cd /home/lujoke/Documents/CPP/MCPhoton/build && $(MAKE) -f src/CMakeFiles/Linear_Log.dir/build.make src/CMakeFiles/Linear_Log.dir/KNLinRej.cpp.s
-	cd /home/lujoke/Documents/CPP/MCPhoton/build && $(MAKE) -f src/CMakeFiles/TwoPath_Lin.dir/build.make src/CMakeFiles/TwoPath_Lin.dir/KNLinRej.cpp.s
-	cd /home/lujoke/Documents/CPP/MCPhoton/build && $(MAKE) -f src/CMakeFiles/TwoPath_Log.dir/build.make src/CMakeFiles/TwoPath_Log.dir/KNLinRej.cpp.s
+	cd /home/lujoke/Documents/CPP/MCPhoton/build && $(MAKE) -f src/CMakeFiles/constant_lin.dir/build.make src/CMakeFiles/constant_lin.dir/KNLinRej.cpp.s
+	cd /home/lujoke/Documents/CPP/MCPhoton/build && $(MAKE) -f src/CMakeFiles/constant_log.dir/build.make src/CMakeFiles/constant_log.dir/KNLinRej.cpp.s
+	cd /home/lujoke/Documents/CPP/MCPhoton/build && $(MAKE) -f src/CMakeFiles/linear_lin.dir/build.make src/CMakeFiles/linear_lin.dir/KNLinRej.cpp.s
+	cd /home/lujoke/Documents/CPP/MCPhoton/build && $(MAKE) -f src/CMakeFiles/linear_log.dir/build.make src/CMakeFiles/linear_log.dir/KNLinRej.cpp.s
+	cd /home/lujoke/Documents/CPP/MCPhoton/build && $(MAKE) -f src/CMakeFiles/twopath_lin.dir/build.make src/CMakeFiles/twopath_lin.dir/KNLinRej.cpp.s
+	cd /home/lujoke/Documents/CPP/MCPhoton/build && $(MAKE) -f src/CMakeFiles/twopath_log.dir/build.make src/CMakeFiles/twopath_log.dir/KNLinRej.cpp.s
 .PHONY : KNLinRej.cpp.s
 
 KNRej.o: KNRej.cpp.o
@@ -401,12 +401,12 @@ KNRej.o: KNRej.cpp.o
 
 # target to build an object file
 KNRej.cpp.o:
-	cd /home/lujoke/Documents/CPP/MCPhoton/build && $(MAKE) -f src/CMakeFiles/Constant_Lin.dir/build.make src/CMakeFiles/Constant_Lin.dir/KNRej.cpp.o
-	cd /home/lujoke/Documents/CPP/MCPhoton/build && $(MAKE) -f src/CMakeFiles/Constant_Log.dir/build.make src/CMakeFiles/Constant_Log.dir/KNRej.cpp.o
-	cd /home/lujoke/Documents/CPP/MCPhoton/build && $(MAKE) -f src/CMakeFiles/Linear_Lin.dir/build.make src/CMakeFiles/Linear_Lin.dir/KNRej.cpp.o
-	cd /home/lujoke/Documents/CPP/MCPhoton/build && $(MAKE) -f src/CMakeFiles/Linear_Log.dir/build.make src/CMakeFiles/Linear_Log.dir/KNRej.cpp.o
-	cd /home/lujoke/Documents/CPP/MCPhoton/build && $(MAKE) -f src/CMakeFiles/TwoPath_Lin.dir/build.make src/CMakeFiles/TwoPath_Lin.dir/KNRej.cpp.o
-	cd /home/lujoke/Documents/CPP/MCPhoton/build && $(MAKE) -f src/CMakeFiles/TwoPath_Log.dir/build.make src/CMakeFiles/TwoPath_Log.dir/KNRej.cpp.o
+	cd /home/lujoke/Documents/CPP/MCPhoton/build && $(MAKE) -f src/CMakeFiles/constant_lin.dir/build.make src/CMakeFiles/constant_lin.dir/KNRej.cpp.o
+	cd /home/lujoke/Documents/CPP/MCPhoton/build && $(MAKE) -f src/CMakeFiles/constant_log.dir/build.make src/CMakeFiles/constant_log.dir/KNRej.cpp.o
+	cd /home/lujoke/Documents/CPP/MCPhoton/build && $(MAKE) -f src/CMakeFiles/linear_lin.dir/build.make src/CMakeFiles/linear_lin.dir/KNRej.cpp.o
+	cd /home/lujoke/Documents/CPP/MCPhoton/build && $(MAKE) -f src/CMakeFiles/linear_log.dir/build.make src/CMakeFiles/linear_log.dir/KNRej.cpp.o
+	cd /home/lujoke/Documents/CPP/MCPhoton/build && $(MAKE) -f src/CMakeFiles/twopath_lin.dir/build.make src/CMakeFiles/twopath_lin.dir/KNRej.cpp.o
+	cd /home/lujoke/Documents/CPP/MCPhoton/build && $(MAKE) -f src/CMakeFiles/twopath_log.dir/build.make src/CMakeFiles/twopath_log.dir/KNRej.cpp.o
 .PHONY : KNRej.cpp.o
 
 KNRej.i: KNRej.cpp.i
@@ -414,12 +414,12 @@ KNRej.i: KNRej.cpp.i
 
 # target to preprocess a source file
 KNRej.cpp.i:
-	cd /home/lujoke/Documents/CPP/MCPhoton/build && $(MAKE) -f src/CMakeFiles/Constant_Lin.dir/build.make src/CMakeFiles/Constant_Lin.dir/KNRej.cpp.i
-	cd /home/lujoke/Documents/CPP/MCPhoton/build && $(MAKE) -f src/CMakeFiles/Constant_Log.dir/build.make src/CMakeFiles/Constant_Log.dir/KNRej.cpp.i
-	cd /home/lujoke/Documents/CPP/MCPhoton/build && $(MAKE) -f src/CMakeFiles/Linear_Lin.dir/build.make src/CMakeFiles/Linear_Lin.dir/KNRej.cpp.i
-	cd /home/lujoke/Documents/CPP/MCPhoton/build && $(MAKE) -f src/CMakeFiles/Linear_Log.dir/build.make src/CMakeFiles/Linear_Log.dir/KNRej.cpp.i
-	cd /home/lujoke/Documents/CPP/MCPhoton/build && $(MAKE) -f src/CMakeFiles/TwoPath_Lin.dir/build.make src/CMakeFiles/TwoPath_Lin.dir/KNRej.cpp.i
-	cd /home/lujoke/Documents/CPP/MCPhoton/build && $(MAKE) -f src/CMakeFiles/TwoPath_Log.dir/build.make src/CMakeFiles/TwoPath_Log.dir/KNRej.cpp.i
+	cd /home/lujoke/Documents/CPP/MCPhoton/build && $(MAKE) -f src/CMakeFiles/constant_lin.dir/build.make src/CMakeFiles/constant_lin.dir/KNRej.cpp.i
+	cd /home/lujoke/Documents/CPP/MCPhoton/build && $(MAKE) -f src/CMakeFiles/constant_log.dir/build.make src/CMakeFiles/constant_log.dir/KNRej.cpp.i
+	cd /home/lujoke/Documents/CPP/MCPhoton/build && $(MAKE) -f src/CMakeFiles/linear_lin.dir/build.make src/CMakeFiles/linear_lin.dir/KNRej.cpp.i
+	cd /home/lujoke/Documents/CPP/MCPhoton/build && $(MAKE) -f src/CMakeFiles/linear_log.dir/build.make src/CMakeFiles/linear_log.dir/KNRej.cpp.i
+	cd /home/lujoke/Documents/CPP/MCPhoton/build && $(MAKE) -f src/CMakeFiles/twopath_lin.dir/build.make src/CMakeFiles/twopath_lin.dir/KNRej.cpp.i
+	cd /home/lujoke/Documents/CPP/MCPhoton/build && $(MAKE) -f src/CMakeFiles/twopath_log.dir/build.make src/CMakeFiles/twopath_log.dir/KNRej.cpp.i
 .PHONY : KNRej.cpp.i
 
 KNRej.s: KNRej.cpp.s
@@ -427,12 +427,12 @@ KNRej.s: KNRej.cpp.s
 
 # target to generate assembly for a file
 KNRej.cpp.s:
-	cd /home/lujoke/Documents/CPP/MCPhoton/build && $(MAKE) -f src/CMakeFiles/Constant_Lin.dir/build.make src/CMakeFiles/Constant_Lin.dir/KNRej.cpp.s
-	cd /home/lujoke/Documents/CPP/MCPhoton/build && $(MAKE) -f src/CMakeFiles/Constant_Log.dir/build.make src/CMakeFiles/Constant_Log.dir/KNRej.cpp.s
-	cd /home/lujoke/Documents/CPP/MCPhoton/build && $(MAKE) -f src/CMakeFiles/Linear_Lin.dir/build.make src/CMakeFiles/Linear_Lin.dir/KNRej.cpp.s
-	cd /home/lujoke/Documents/CPP/MCPhoton/build && $(MAKE) -f src/CMakeFiles/Linear_Log.dir/build.make src/CMakeFiles/Linear_Log.dir/KNRej.cpp.s
-	cd /home/lujoke/Documents/CPP/MCPhoton/build && $(MAKE) -f src/CMakeFiles/TwoPath_Lin.dir/build.make src/CMakeFiles/TwoPath_Lin.dir/KNRej.cpp.s
-	cd /home/lujoke/Documents/CPP/MCPhoton/build && $(MAKE) -f src/CMakeFiles/TwoPath_Log.dir/build.make src/CMakeFiles/TwoPath_Log.dir/KNRej.cpp.s
+	cd /home/lujoke/Documents/CPP/MCPhoton/build && $(MAKE) -f src/CMakeFiles/constant_lin.dir/build.make src/CMakeFiles/constant_lin.dir/KNRej.cpp.s
+	cd /home/lujoke/Documents/CPP/MCPhoton/build && $(MAKE) -f src/CMakeFiles/constant_log.dir/build.make src/CMakeFiles/constant_log.dir/KNRej.cpp.s
+	cd /home/lujoke/Documents/CPP/MCPhoton/build && $(MAKE) -f src/CMakeFiles/linear_lin.dir/build.make src/CMakeFiles/linear_lin.dir/KNRej.cpp.s
+	cd /home/lujoke/Documents/CPP/MCPhoton/build && $(MAKE) -f src/CMakeFiles/linear_log.dir/build.make src/CMakeFiles/linear_log.dir/KNRej.cpp.s
+	cd /home/lujoke/Documents/CPP/MCPhoton/build && $(MAKE) -f src/CMakeFiles/twopath_lin.dir/build.make src/CMakeFiles/twopath_lin.dir/KNRej.cpp.s
+	cd /home/lujoke/Documents/CPP/MCPhoton/build && $(MAKE) -f src/CMakeFiles/twopath_log.dir/build.make src/CMakeFiles/twopath_log.dir/KNRej.cpp.s
 .PHONY : KNRej.cpp.s
 
 MCPhoton.o: MCPhoton.cpp.o
@@ -497,12 +497,12 @@ PhotonTransport.o: PhotonTransport.cpp.o
 
 # target to build an object file
 PhotonTransport.cpp.o:
-	cd /home/lujoke/Documents/CPP/MCPhoton/build && $(MAKE) -f src/CMakeFiles/Constant_Lin.dir/build.make src/CMakeFiles/Constant_Lin.dir/PhotonTransport.cpp.o
-	cd /home/lujoke/Documents/CPP/MCPhoton/build && $(MAKE) -f src/CMakeFiles/Constant_Log.dir/build.make src/CMakeFiles/Constant_Log.dir/PhotonTransport.cpp.o
-	cd /home/lujoke/Documents/CPP/MCPhoton/build && $(MAKE) -f src/CMakeFiles/Linear_Lin.dir/build.make src/CMakeFiles/Linear_Lin.dir/PhotonTransport.cpp.o
-	cd /home/lujoke/Documents/CPP/MCPhoton/build && $(MAKE) -f src/CMakeFiles/Linear_Log.dir/build.make src/CMakeFiles/Linear_Log.dir/PhotonTransport.cpp.o
-	cd /home/lujoke/Documents/CPP/MCPhoton/build && $(MAKE) -f src/CMakeFiles/TwoPath_Lin.dir/build.make src/CMakeFiles/TwoPath_Lin.dir/PhotonTransport.cpp.o
-	cd /home/lujoke/Documents/CPP/MCPhoton/build && $(MAKE) -f src/CMakeFiles/TwoPath_Log.dir/build.make src/CMakeFiles/TwoPath_Log.dir/PhotonTransport.cpp.o
+	cd /home/lujoke/Documents/CPP/MCPhoton/build && $(MAKE) -f src/CMakeFiles/constant_lin.dir/build.make src/CMakeFiles/constant_lin.dir/PhotonTransport.cpp.o
+	cd /home/lujoke/Documents/CPP/MCPhoton/build && $(MAKE) -f src/CMakeFiles/constant_log.dir/build.make src/CMakeFiles/constant_log.dir/PhotonTransport.cpp.o
+	cd /home/lujoke/Documents/CPP/MCPhoton/build && $(MAKE) -f src/CMakeFiles/linear_lin.dir/build.make src/CMakeFiles/linear_lin.dir/PhotonTransport.cpp.o
+	cd /home/lujoke/Documents/CPP/MCPhoton/build && $(MAKE) -f src/CMakeFiles/linear_log.dir/build.make src/CMakeFiles/linear_log.dir/PhotonTransport.cpp.o
+	cd /home/lujoke/Documents/CPP/MCPhoton/build && $(MAKE) -f src/CMakeFiles/twopath_lin.dir/build.make src/CMakeFiles/twopath_lin.dir/PhotonTransport.cpp.o
+	cd /home/lujoke/Documents/CPP/MCPhoton/build && $(MAKE) -f src/CMakeFiles/twopath_log.dir/build.make src/CMakeFiles/twopath_log.dir/PhotonTransport.cpp.o
 .PHONY : PhotonTransport.cpp.o
 
 PhotonTransport.i: PhotonTransport.cpp.i
@@ -510,12 +510,12 @@ PhotonTransport.i: PhotonTransport.cpp.i
 
 # target to preprocess a source file
 PhotonTransport.cpp.i:
-	cd /home/lujoke/Documents/CPP/MCPhoton/build && $(MAKE) -f src/CMakeFiles/Constant_Lin.dir/build.make src/CMakeFiles/Constant_Lin.dir/PhotonTransport.cpp.i
-	cd /home/lujoke/Documents/CPP/MCPhoton/build && $(MAKE) -f src/CMakeFiles/Constant_Log.dir/build.make src/CMakeFiles/Constant_Log.dir/PhotonTransport.cpp.i
-	cd /home/lujoke/Documents/CPP/MCPhoton/build && $(MAKE) -f src/CMakeFiles/Linear_Lin.dir/build.make src/CMakeFiles/Linear_Lin.dir/PhotonTransport.cpp.i
-	cd /home/lujoke/Documents/CPP/MCPhoton/build && $(MAKE) -f src/CMakeFiles/Linear_Log.dir/build.make src/CMakeFiles/Linear_Log.dir/PhotonTransport.cpp.i
-	cd /home/lujoke/Documents/CPP/MCPhoton/build && $(MAKE) -f src/CMakeFiles/TwoPath_Lin.dir/build.make src/CMakeFiles/TwoPath_Lin.dir/PhotonTransport.cpp.i
-	cd /home/lujoke/Documents/CPP/MCPhoton/build && $(MAKE) -f src/CMakeFiles/TwoPath_Log.dir/build.make src/CMakeFiles/TwoPath_Log.dir/PhotonTransport.cpp.i
+	cd /home/lujoke/Documents/CPP/MCPhoton/build && $(MAKE) -f src/CMakeFiles/constant_lin.dir/build.make src/CMakeFiles/constant_lin.dir/PhotonTransport.cpp.i
+	cd /home/lujoke/Documents/CPP/MCPhoton/build && $(MAKE) -f src/CMakeFiles/constant_log.dir/build.make src/CMakeFiles/constant_log.dir/PhotonTransport.cpp.i
+	cd /home/lujoke/Documents/CPP/MCPhoton/build && $(MAKE) -f src/CMakeFiles/linear_lin.dir/build.make src/CMakeFiles/linear_lin.dir/PhotonTransport.cpp.i
+	cd /home/lujoke/Documents/CPP/MCPhoton/build && $(MAKE) -f src/CMakeFiles/linear_log.dir/build.make src/CMakeFiles/linear_log.dir/PhotonTransport.cpp.i
+	cd /home/lujoke/Documents/CPP/MCPhoton/build && $(MAKE) -f src/CMakeFiles/twopath_lin.dir/build.make src/CMakeFiles/twopath_lin.dir/PhotonTransport.cpp.i
+	cd /home/lujoke/Documents/CPP/MCPhoton/build && $(MAKE) -f src/CMakeFiles/twopath_log.dir/build.make src/CMakeFiles/twopath_log.dir/PhotonTransport.cpp.i
 .PHONY : PhotonTransport.cpp.i
 
 PhotonTransport.s: PhotonTransport.cpp.s
@@ -523,12 +523,12 @@ PhotonTransport.s: PhotonTransport.cpp.s
 
 # target to generate assembly for a file
 PhotonTransport.cpp.s:
-	cd /home/lujoke/Documents/CPP/MCPhoton/build && $(MAKE) -f src/CMakeFiles/Constant_Lin.dir/build.make src/CMakeFiles/Constant_Lin.dir/PhotonTransport.cpp.s
-	cd /home/lujoke/Documents/CPP/MCPhoton/build && $(MAKE) -f src/CMakeFiles/Constant_Log.dir/build.make src/CMakeFiles/Constant_Log.dir/PhotonTransport.cpp.s
-	cd /home/lujoke/Documents/CPP/MCPhoton/build && $(MAKE) -f src/CMakeFiles/Linear_Lin.dir/build.make src/CMakeFiles/Linear_Lin.dir/PhotonTransport.cpp.s
-	cd /home/lujoke/Documents/CPP/MCPhoton/build && $(MAKE) -f src/CMakeFiles/Linear_Log.dir/build.make src/CMakeFiles/Linear_Log.dir/PhotonTransport.cpp.s
-	cd /home/lujoke/Documents/CPP/MCPhoton/build && $(MAKE) -f src/CMakeFiles/TwoPath_Lin.dir/build.make src/CMakeFiles/TwoPath_Lin.dir/PhotonTransport.cpp.s
-	cd /home/lujoke/Documents/CPP/MCPhoton/build && $(MAKE) -f src/CMakeFiles/TwoPath_Log.dir/build.make src/CMakeFiles/TwoPath_Log.dir/PhotonTransport.cpp.s
+	cd /home/lujoke/Documents/CPP/MCPhoton/build && $(MAKE) -f src/CMakeFiles/constant_lin.dir/build.make src/CMakeFiles/constant_lin.dir/PhotonTransport.cpp.s
+	cd /home/lujoke/Documents/CPP/MCPhoton/build && $(MAKE) -f src/CMakeFiles/constant_log.dir/build.make src/CMakeFiles/constant_log.dir/PhotonTransport.cpp.s
+	cd /home/lujoke/Documents/CPP/MCPhoton/build && $(MAKE) -f src/CMakeFiles/linear_lin.dir/build.make src/CMakeFiles/linear_lin.dir/PhotonTransport.cpp.s
+	cd /home/lujoke/Documents/CPP/MCPhoton/build && $(MAKE) -f src/CMakeFiles/linear_log.dir/build.make src/CMakeFiles/linear_log.dir/PhotonTransport.cpp.s
+	cd /home/lujoke/Documents/CPP/MCPhoton/build && $(MAKE) -f src/CMakeFiles/twopath_lin.dir/build.make src/CMakeFiles/twopath_lin.dir/PhotonTransport.cpp.s
+	cd /home/lujoke/Documents/CPP/MCPhoton/build && $(MAKE) -f src/CMakeFiles/twopath_log.dir/build.make src/CMakeFiles/twopath_log.dir/PhotonTransport.cpp.s
 .PHONY : PhotonTransport.cpp.s
 
 # Help Target
@@ -538,18 +538,18 @@ help:
 	@echo "... clean"
 	@echo "... depend"
 	@echo "... Constant"
-	@echo "... Constant_Lin"
-	@echo "... Constant_Log"
 	@echo "... Lin"
 	@echo "... Linear"
-	@echo "... Linear_Lin"
-	@echo "... Linear_Log"
 	@echo "... Log"
 	@echo "... TwoPath"
-	@echo "... TwoPath_Lin"
-	@echo "... TwoPath_Log"
+	@echo "... constant_lin"
+	@echo "... constant_log"
 	@echo "... edit_cache"
+	@echo "... linear_lin"
+	@echo "... linear_log"
 	@echo "... rebuild_cache"
+	@echo "... twopath_lin"
+	@echo "... twopath_log"
 	@echo "... AzimuthalRej.o"
 	@echo "... AzimuthalRej.i"
 	@echo "... AzimuthalRej.s"

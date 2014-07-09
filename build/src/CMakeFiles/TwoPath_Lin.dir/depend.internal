@@ -12,17 +12,5 @@ src/CMakeFiles/TwoPath_Lin.dir/KNLinRej.cpp.o
  /home/lujoke/Documents/CPP/MCPhoton/src/KNLinRej.cpp
 src/CMakeFiles/TwoPath_Lin.dir/KNRej.cpp.o
  /home/lujoke/Documents/CPP/MCPhoton/src/KNRej.cpp
-src/CMakeFiles/TwoPath_Lin.dir/MCPhoton.cpp.o
- /home/lujoke/Documents/CPP/MCPhoton/src/Interpolate.hpp
- /home/lujoke/Documents/CPP/MCPhoton/src/MCPhoton.cpp
- /home/lujoke/Documents/CPP/MCPhoton/src/MCPhoton.hpp
- /home/lujoke/Documents/CPP/MCPhoton/src/PhotonScatter.hpp
- /home/lujoke/Documents/CPP/MCPhoton/src/PhotonTransport.hpp
-src/CMakeFiles/TwoPath_Lin.dir/PhotonScatter.cpp.o
- /home/lujoke/Documents/CPP/MCPhoton/src/AzimuthalRej.hpp
- /home/lujoke/Documents/CPP/MCPhoton/src/ComptonScatter.hpp
- /home/lujoke/Documents/CPP/MCPhoton/src/KNLinRej.hpp
- /home/lujoke/Documents/CPP/MCPhoton/src/KNRej.hpp
- /home/lujoke/Documents/CPP/MCPhoton/src/PhotonScatter.cpp
 src/CMakeFiles/TwoPath_Lin.dir/PhotonTransport.cpp.o
  /home/lujoke/Documents/CPP/MCPhoton/src/PhotonTransport.cpp

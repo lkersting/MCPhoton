@@ -1,6 +1,5 @@
 FILE(REMOVE_RECURSE
   "CMakeFiles/Log.dir/MCPhoton.cpp.o"
-  "CMakeFiles/Log.dir/ComptonScatter.cpp.o"
   "libLog.pdb"
   "libLog.a"
 )

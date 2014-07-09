@@ -12,17 +12,5 @@ src/CMakeFiles/TwoPath_Log.dir/KNLinRej.cpp.o: ../src/KNLinRej.cpp
 
 src/CMakeFiles/TwoPath_Log.dir/KNRej.cpp.o: ../src/KNRej.cpp
 
-src/CMakeFiles/TwoPath_Log.dir/MCPhoton.cpp.o: ../src/Interpolate.hpp
-src/CMakeFiles/TwoPath_Log.dir/MCPhoton.cpp.o: ../src/MCPhoton.cpp
-src/CMakeFiles/TwoPath_Log.dir/MCPhoton.cpp.o: ../src/MCPhoton.hpp
-src/CMakeFiles/TwoPath_Log.dir/MCPhoton.cpp.o: ../src/PhotonScatter.hpp
-src/CMakeFiles/TwoPath_Log.dir/MCPhoton.cpp.o: ../src/PhotonTransport.hpp
-
-src/CMakeFiles/TwoPath_Log.dir/PhotonScatter.cpp.o: ../src/AzimuthalRej.hpp
-src/CMakeFiles/TwoPath_Log.dir/PhotonScatter.cpp.o: ../src/ComptonScatter.hpp
-src/CMakeFiles/TwoPath_Log.dir/PhotonScatter.cpp.o: ../src/KNLinRej.hpp
-src/CMakeFiles/TwoPath_Log.dir/PhotonScatter.cpp.o: ../src/KNRej.hpp
-src/CMakeFiles/TwoPath_Log.dir/PhotonScatter.cpp.o: ../src/PhotonScatter.cpp
-
 src/CMakeFiles/TwoPath_Log.dir/PhotonTransport.cpp.o: ../src/PhotonTransport.cpp
 

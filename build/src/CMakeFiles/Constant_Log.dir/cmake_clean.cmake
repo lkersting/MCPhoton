@@ -4,6 +4,7 @@ FILE(REMOVE_RECURSE
   "CMakeFiles/Constant_Log.dir/KNLinRej.cpp.o"
   "CMakeFiles/Constant_Log.dir/AzimuthalRej.cpp.o"
   "CMakeFiles/Constant_Log.dir/PhotonTransport.cpp.o"
+  "CMakeFiles/Constant_Log.dir/ComptonScatter.cpp.o"
   "MCPhoton.pdb"
   "MCPhoton"
 )

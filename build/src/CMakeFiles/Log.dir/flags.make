@@ -4,5 +4,5 @@
 # compile CXX with /usr/bin/c++
 CXX_FLAGS = -std=c++11   -std=c++11
 
-CXX_DEFINES = -D_INTERPOLATOR2=getLogInterpolation2 -D_INTERPOLATOR3=getLogInterpolation3
+CXX_DEFINES = -DDIR=/home/lujoke/Documents/CPP/MCPhoton/data -D_INTERPOLATOR3=getLogInterpolation3
 
