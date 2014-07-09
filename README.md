@@ -73,7 +73,7 @@ $ ./src/MCPhoton
 
 b) Follow the onscreen command to enter the # of photons to be modeled.
 NOTE: the number cannot be in entered in shorthand.  
-ie: 10000 (correct)   
+ie: 10000 (correct)      
 	1E4   (Incorrect)
 
 After the program has finished running it will print out how many photons exited
