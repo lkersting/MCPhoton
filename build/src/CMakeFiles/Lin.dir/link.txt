@@ -1,0 +1,2 @@
+/usr/bin/ar cr libLin.a  CMakeFiles/Lin.dir/MCPhoton.cpp.o CMakeFiles/Lin.dir/ComptonScatter.cpp.o
+/usr/bin/ranlib libLin.a

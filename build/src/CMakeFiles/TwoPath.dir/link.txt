@@ -1,0 +1,2 @@
+/usr/bin/ar cr libTwoPath.a  CMakeFiles/TwoPath.dir/PhotonScatter.cpp.o
+/usr/bin/ranlib libTwoPath.a

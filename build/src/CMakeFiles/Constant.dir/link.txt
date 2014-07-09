@@ -1,0 +1,2 @@
+/usr/bin/ar cr libConstant.a  CMakeFiles/Constant.dir/PhotonScatter.cpp.o
+/usr/bin/ranlib libConstant.a

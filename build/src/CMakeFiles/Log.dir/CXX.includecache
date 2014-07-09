@@ -1,0 +1,46 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/lujoke/Documents/CPP/MCPhoton/src/ComptonScatter.cpp
+string
+-
+cstdlib
+-
+cmath
+-
+Interpolate.hpp
+/home/lujoke/Documents/CPP/MCPhoton/src/Interpolate.hpp
+
+/home/lujoke/Documents/CPP/MCPhoton/src/Interpolate.hpp
+string
+-
+
+/home/lujoke/Documents/CPP/MCPhoton/src/MCPhoton.cpp
+MCPhoton.hpp
+/home/lujoke/Documents/CPP/MCPhoton/src/MCPhoton.hpp
+ctime
+-
+cmath
+-
+cstdlib
+-
+
+/home/lujoke/Documents/CPP/MCPhoton/src/MCPhoton.hpp
+PhotonTransport.hpp
+/home/lujoke/Documents/CPP/MCPhoton/src/PhotonTransport.hpp
+PhotonScatter.hpp
+/home/lujoke/Documents/CPP/MCPhoton/src/PhotonScatter.hpp
+Interpolate.hpp
+/home/lujoke/Documents/CPP/MCPhoton/src/Interpolate.hpp
+iostream
+-
+
+/home/lujoke/Documents/CPP/MCPhoton/src/PhotonScatter.hpp
+
+/home/lujoke/Documents/CPP/MCPhoton/src/PhotonTransport.hpp
+

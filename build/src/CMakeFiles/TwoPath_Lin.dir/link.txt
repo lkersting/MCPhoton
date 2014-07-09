@@ -1,0 +1,1 @@
+/usr/bin/c++   -std=c++11    CMakeFiles/TwoPath_Lin.dir/Interpolate.cpp.o CMakeFiles/TwoPath_Lin.dir/KNRej.cpp.o CMakeFiles/TwoPath_Lin.dir/KNLinRej.cpp.o CMakeFiles/TwoPath_Lin.dir/AzimuthalRej.cpp.o CMakeFiles/TwoPath_Lin.dir/PhotonTransport.cpp.o  -o MCPhoton -rdynamic libLin.a libTwoPath.a 

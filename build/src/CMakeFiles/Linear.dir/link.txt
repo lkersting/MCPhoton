@@ -1,0 +1,2 @@
+/usr/bin/ar cr libLinear.a  CMakeFiles/Linear.dir/PhotonScatter.cpp.o
+/usr/bin/ranlib libLinear.a

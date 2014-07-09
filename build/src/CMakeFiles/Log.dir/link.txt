@@ -1,0 +1,2 @@
+/usr/bin/ar cr libLog.a  CMakeFiles/Log.dir/MCPhoton.cpp.o CMakeFiles/Log.dir/ComptonScatter.cpp.o
+/usr/bin/ranlib libLog.a
