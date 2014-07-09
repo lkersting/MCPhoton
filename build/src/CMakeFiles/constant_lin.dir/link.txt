@@ -1,0 +1,1 @@
+/usr/bin/c++   -std=c++11    CMakeFiles/constant_lin.dir/Interpolate.cpp.o CMakeFiles/constant_lin.dir/KNRej.cpp.o CMakeFiles/constant_lin.dir/KNLinRej.cpp.o CMakeFiles/constant_lin.dir/AzimuthalRej.cpp.o CMakeFiles/constant_lin.dir/PhotonTransport.cpp.o  -o MCPhoton -rdynamic libLin.a libConstant.a 

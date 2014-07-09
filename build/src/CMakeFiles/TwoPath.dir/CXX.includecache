@@ -1,0 +1,32 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/lujoke/Documents/CPP/MCPhoton/src/AzimuthalRej.hpp
+
+/home/lujoke/Documents/CPP/MCPhoton/src/ComptonScatter.hpp
+
+/home/lujoke/Documents/CPP/MCPhoton/src/KNLinRej.hpp
+
+/home/lujoke/Documents/CPP/MCPhoton/src/KNRej.hpp
+
+/home/lujoke/Documents/CPP/MCPhoton/src/PhotonScatter.cpp
+cmath
+-
+cstdlib
+-
+iostream
+-
+KNLinRej.hpp
+/home/lujoke/Documents/CPP/MCPhoton/src/KNLinRej.hpp
+KNRej.hpp
+/home/lujoke/Documents/CPP/MCPhoton/src/KNRej.hpp
+ComptonScatter.hpp
+/home/lujoke/Documents/CPP/MCPhoton/src/ComptonScatter.hpp
+AzimuthalRej.hpp
+/home/lujoke/Documents/CPP/MCPhoton/src/AzimuthalRej.hpp
+

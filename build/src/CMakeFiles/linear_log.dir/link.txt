@@ -1,0 +1,1 @@
+/usr/bin/c++   -std=c++11    CMakeFiles/linear_log.dir/Interpolate.cpp.o CMakeFiles/linear_log.dir/KNRej.cpp.o CMakeFiles/linear_log.dir/KNLinRej.cpp.o CMakeFiles/linear_log.dir/AzimuthalRej.cpp.o CMakeFiles/linear_log.dir/PhotonTransport.cpp.o  -o MCPhoton -rdynamic libLog.a libLinear.a 
