@@ -72,13 +72,13 @@ $ ./src/MCPhoton
 ```
 
 b) Follow the onscreen command to enter the # of photons to be modeled.
-NOTE: the number cannot be in entered in shorthand 
+NOTE: the number cannot be in entered in shorthand.
 ie: 10000 (correct) 
     1E4   (Incorrect)
 
-After the program has finished running it will print out how many photons exited
+	After the program has finished running it will print out how many photons exited
 forward through the back of the shield, backward through the front of the 
 shield, and how many were absorbed.
-If any photons exited forward through the back of the shield it will display a 
+	If any photons exited forward through the back of the shield it will display a 
 histogram of their final energies and the scalar flux.
-Finally, the total time it took the program to run will also be displayed.
+	Finally, the total time it took the program to run will also be displayed.
