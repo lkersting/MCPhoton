@@ -12,7 +12,7 @@
 // CHOOSE POLAR ANGLE REJCTION SAMPLING TECHNIQUE
 //---------------------------------------------------------------------------//
 // Use linear rejection for sampling mu
-#define MU_REJECTION_SAMPLING KNLinRej
+//#define MU_REJECTION_SAMPLING KNLinRej
 
 // Use in class rejection for sampling mu
 //#define MU_REJECTION_SAMPLING KNRej

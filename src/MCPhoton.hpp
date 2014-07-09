@@ -18,7 +18,7 @@
 //#define _INTERPOLATOR3 getLogInterpolation3
 
 // Define home directory
-//#define _DIR "/home/lujoke/Documents/MCPhoton2/data"
+#define DIR "/home/lujoke/Documents/CPP/MCPhoton/data"
 
 #include "PhotonTransport.hpp"
 #include "PhotonScatter.hpp"

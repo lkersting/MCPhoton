@@ -14,7 +14,7 @@
 #include "Interpolate.hpp"
 
 // Define data directory
-//#define _DIR "/home/lujoke/Documents/MCPhoton2/data"
+#define DIR "/home/lujoke/Documents/CPP/MCPhoton/data"
 //#define _INTERPOLATOR2 getLinearInterpolation2
 
 // Sample compton scattering using the two track method
@@ -25,7 +25,7 @@ void ComptonScatter (	double (&alpha),
 	std::string name = "/S_Fe.txt";
 
 	// Full file path
-	std::string file = _DIR + name;
+	std::string file = DIR + name;
 
 	// The initial photon wavelength in Compton units
 	double lambda = 1.0/alpha;

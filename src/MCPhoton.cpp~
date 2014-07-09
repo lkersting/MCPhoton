@@ -11,6 +11,18 @@
 #include <cmath>
 #include <cstdlib>
 
+//#define DIR _DATA_DIRECTORY
+
+//#define F abc
+//#define B def
+//#define FB(arg) #arg
+//#define FB1(arg) FB(arg)
+
+//FB(F B)
+//FB1(F B)
+
+//std::cout<<FB << "\n";
+//std::cout<FB1 << "\n";
 // Number of histogram bins
 const int num_bins = 100;
 
@@ -36,9 +48,9 @@ const double N_Fe = 55.845;
 
 // Iron (Fe) absorption and total cross section data file [cm^2/g] (E in MeV)
 std::string name = "/Fe.txt";
-
+std::cout<<DIR << "\n";
 // Full file path
-std::string file = "_DIR" + name;
+std::string file = DIR + name;
 
 // Random number for interaction sampling
 double rnd;

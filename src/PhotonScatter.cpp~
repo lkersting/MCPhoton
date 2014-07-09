@@ -23,7 +23,7 @@
 
 // Std library includes
 #include <cmath>
-//#include <cstdlib>
+#include <cstdlib>
 #include <iostream>
 
 // Other includes

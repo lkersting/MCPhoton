@@ -35,10 +35,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/lujoke/Documents/MCPhoton2
+CMAKE_SOURCE_DIR = /home/lujoke/Documents/CPP/MCPhoton
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/lujoke/Documents/MCPhoton2/build
+CMAKE_BINARY_DIR = /home/lujoke/Documents/CPP/MCPhoton/build
 
 # Include any dependencies generated for this target.
 include src/CMakeFiles/MCPhoton.dir/depend.make
@@ -51,17 +51,17 @@ include src/CMakeFiles/MCPhoton.dir/flags.make
 
 src/CMakeFiles/MCPhoton.dir/Interpolate.cpp.o: src/CMakeFiles/MCPhoton.dir/flags.make
 src/CMakeFiles/MCPhoton.dir/Interpolate.cpp.o: ../src/Interpolate.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/lujoke/Documents/MCPhoton2/build/CMakeFiles $(CMAKE_PROGRESS_1)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/lujoke/Documents/CPP/MCPhoton/build/CMakeFiles $(CMAKE_PROGRESS_1)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/CMakeFiles/MCPhoton.dir/Interpolate.cpp.o"
-	cd /home/lujoke/Documents/MCPhoton2/build/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/MCPhoton.dir/Interpolate.cpp.o -c /home/lujoke/Documents/MCPhoton2/src/Interpolate.cpp
+	cd /home/lujoke/Documents/CPP/MCPhoton/build/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/MCPhoton.dir/Interpolate.cpp.o -c /home/lujoke/Documents/CPP/MCPhoton/src/Interpolate.cpp
 
 src/CMakeFiles/MCPhoton.dir/Interpolate.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/MCPhoton.dir/Interpolate.cpp.i"
-	cd /home/lujoke/Documents/MCPhoton2/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/lujoke/Documents/MCPhoton2/src/Interpolate.cpp > CMakeFiles/MCPhoton.dir/Interpolate.cpp.i
+	cd /home/lujoke/Documents/CPP/MCPhoton/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/lujoke/Documents/CPP/MCPhoton/src/Interpolate.cpp > CMakeFiles/MCPhoton.dir/Interpolate.cpp.i
 
 src/CMakeFiles/MCPhoton.dir/Interpolate.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/MCPhoton.dir/Interpolate.cpp.s"
-	cd /home/lujoke/Documents/MCPhoton2/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/lujoke/Documents/MCPhoton2/src/Interpolate.cpp -o CMakeFiles/MCPhoton.dir/Interpolate.cpp.s
+	cd /home/lujoke/Documents/CPP/MCPhoton/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/lujoke/Documents/CPP/MCPhoton/src/Interpolate.cpp -o CMakeFiles/MCPhoton.dir/Interpolate.cpp.s
 
 src/CMakeFiles/MCPhoton.dir/Interpolate.cpp.o.requires:
 .PHONY : src/CMakeFiles/MCPhoton.dir/Interpolate.cpp.o.requires
@@ -74,17 +74,17 @@ src/CMakeFiles/MCPhoton.dir/Interpolate.cpp.o.provides.build: src/CMakeFiles/MCP
 
 src/CMakeFiles/MCPhoton.dir/KNRej.cpp.o: src/CMakeFiles/MCPhoton.dir/flags.make
 src/CMakeFiles/MCPhoton.dir/KNRej.cpp.o: ../src/KNRej.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/lujoke/Documents/MCPhoton2/build/CMakeFiles $(CMAKE_PROGRESS_2)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/lujoke/Documents/CPP/MCPhoton/build/CMakeFiles $(CMAKE_PROGRESS_2)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/CMakeFiles/MCPhoton.dir/KNRej.cpp.o"
-	cd /home/lujoke/Documents/MCPhoton2/build/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/MCPhoton.dir/KNRej.cpp.o -c /home/lujoke/Documents/MCPhoton2/src/KNRej.cpp
+	cd /home/lujoke/Documents/CPP/MCPhoton/build/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/MCPhoton.dir/KNRej.cpp.o -c /home/lujoke/Documents/CPP/MCPhoton/src/KNRej.cpp
 
 src/CMakeFiles/MCPhoton.dir/KNRej.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/MCPhoton.dir/KNRej.cpp.i"
-	cd /home/lujoke/Documents/MCPhoton2/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/lujoke/Documents/MCPhoton2/src/KNRej.cpp > CMakeFiles/MCPhoton.dir/KNRej.cpp.i
+	cd /home/lujoke/Documents/CPP/MCPhoton/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/lujoke/Documents/CPP/MCPhoton/src/KNRej.cpp > CMakeFiles/MCPhoton.dir/KNRej.cpp.i
 
 src/CMakeFiles/MCPhoton.dir/KNRej.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/MCPhoton.dir/KNRej.cpp.s"
-	cd /home/lujoke/Documents/MCPhoton2/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/lujoke/Documents/MCPhoton2/src/KNRej.cpp -o CMakeFiles/MCPhoton.dir/KNRej.cpp.s
+	cd /home/lujoke/Documents/CPP/MCPhoton/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/lujoke/Documents/CPP/MCPhoton/src/KNRej.cpp -o CMakeFiles/MCPhoton.dir/KNRej.cpp.s
 
 src/CMakeFiles/MCPhoton.dir/KNRej.cpp.o.requires:
 .PHONY : src/CMakeFiles/MCPhoton.dir/KNRej.cpp.o.requires
@@ -97,17 +97,17 @@ src/CMakeFiles/MCPhoton.dir/KNRej.cpp.o.provides.build: src/CMakeFiles/MCPhoton.
 
 src/CMakeFiles/MCPhoton.dir/KNLinRej.cpp.o: src/CMakeFiles/MCPhoton.dir/flags.make
 src/CMakeFiles/MCPhoton.dir/KNLinRej.cpp.o: ../src/KNLinRej.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/lujoke/Documents/MCPhoton2/build/CMakeFiles $(CMAKE_PROGRESS_3)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/lujoke/Documents/CPP/MCPhoton/build/CMakeFiles $(CMAKE_PROGRESS_3)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/CMakeFiles/MCPhoton.dir/KNLinRej.cpp.o"
-	cd /home/lujoke/Documents/MCPhoton2/build/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/MCPhoton.dir/KNLinRej.cpp.o -c /home/lujoke/Documents/MCPhoton2/src/KNLinRej.cpp
+	cd /home/lujoke/Documents/CPP/MCPhoton/build/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/MCPhoton.dir/KNLinRej.cpp.o -c /home/lujoke/Documents/CPP/MCPhoton/src/KNLinRej.cpp
 
 src/CMakeFiles/MCPhoton.dir/KNLinRej.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/MCPhoton.dir/KNLinRej.cpp.i"
-	cd /home/lujoke/Documents/MCPhoton2/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/lujoke/Documents/MCPhoton2/src/KNLinRej.cpp > CMakeFiles/MCPhoton.dir/KNLinRej.cpp.i
+	cd /home/lujoke/Documents/CPP/MCPhoton/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/lujoke/Documents/CPP/MCPhoton/src/KNLinRej.cpp > CMakeFiles/MCPhoton.dir/KNLinRej.cpp.i
 
 src/CMakeFiles/MCPhoton.dir/KNLinRej.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/MCPhoton.dir/KNLinRej.cpp.s"
-	cd /home/lujoke/Documents/MCPhoton2/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/lujoke/Documents/MCPhoton2/src/KNLinRej.cpp -o CMakeFiles/MCPhoton.dir/KNLinRej.cpp.s
+	cd /home/lujoke/Documents/CPP/MCPhoton/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/lujoke/Documents/CPP/MCPhoton/src/KNLinRej.cpp -o CMakeFiles/MCPhoton.dir/KNLinRej.cpp.s
 
 src/CMakeFiles/MCPhoton.dir/KNLinRej.cpp.o.requires:
 .PHONY : src/CMakeFiles/MCPhoton.dir/KNLinRej.cpp.o.requires
@@ -120,17 +120,17 @@ src/CMakeFiles/MCPhoton.dir/KNLinRej.cpp.o.provides.build: src/CMakeFiles/MCPhot
 
 src/CMakeFiles/MCPhoton.dir/ComptonScatter.cpp.o: src/CMakeFiles/MCPhoton.dir/flags.make
 src/CMakeFiles/MCPhoton.dir/ComptonScatter.cpp.o: ../src/ComptonScatter.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/lujoke/Documents/MCPhoton2/build/CMakeFiles $(CMAKE_PROGRESS_4)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/lujoke/Documents/CPP/MCPhoton/build/CMakeFiles $(CMAKE_PROGRESS_4)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/CMakeFiles/MCPhoton.dir/ComptonScatter.cpp.o"
-	cd /home/lujoke/Documents/MCPhoton2/build/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/MCPhoton.dir/ComptonScatter.cpp.o -c /home/lujoke/Documents/MCPhoton2/src/ComptonScatter.cpp
+	cd /home/lujoke/Documents/CPP/MCPhoton/build/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/MCPhoton.dir/ComptonScatter.cpp.o -c /home/lujoke/Documents/CPP/MCPhoton/src/ComptonScatter.cpp
 
 src/CMakeFiles/MCPhoton.dir/ComptonScatter.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/MCPhoton.dir/ComptonScatter.cpp.i"
-	cd /home/lujoke/Documents/MCPhoton2/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/lujoke/Documents/MCPhoton2/src/ComptonScatter.cpp > CMakeFiles/MCPhoton.dir/ComptonScatter.cpp.i
+	cd /home/lujoke/Documents/CPP/MCPhoton/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/lujoke/Documents/CPP/MCPhoton/src/ComptonScatter.cpp > CMakeFiles/MCPhoton.dir/ComptonScatter.cpp.i
 
 src/CMakeFiles/MCPhoton.dir/ComptonScatter.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/MCPhoton.dir/ComptonScatter.cpp.s"
-	cd /home/lujoke/Documents/MCPhoton2/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/lujoke/Documents/MCPhoton2/src/ComptonScatter.cpp -o CMakeFiles/MCPhoton.dir/ComptonScatter.cpp.s
+	cd /home/lujoke/Documents/CPP/MCPhoton/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/lujoke/Documents/CPP/MCPhoton/src/ComptonScatter.cpp -o CMakeFiles/MCPhoton.dir/ComptonScatter.cpp.s
 
 src/CMakeFiles/MCPhoton.dir/ComptonScatter.cpp.o.requires:
 .PHONY : src/CMakeFiles/MCPhoton.dir/ComptonScatter.cpp.o.requires
@@ -143,17 +143,17 @@ src/CMakeFiles/MCPhoton.dir/ComptonScatter.cpp.o.provides.build: src/CMakeFiles/
 
 src/CMakeFiles/MCPhoton.dir/AzimuthalRej.cpp.o: src/CMakeFiles/MCPhoton.dir/flags.make
 src/CMakeFiles/MCPhoton.dir/AzimuthalRej.cpp.o: ../src/AzimuthalRej.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/lujoke/Documents/MCPhoton2/build/CMakeFiles $(CMAKE_PROGRESS_5)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/lujoke/Documents/CPP/MCPhoton/build/CMakeFiles $(CMAKE_PROGRESS_5)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/CMakeFiles/MCPhoton.dir/AzimuthalRej.cpp.o"
-	cd /home/lujoke/Documents/MCPhoton2/build/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/MCPhoton.dir/AzimuthalRej.cpp.o -c /home/lujoke/Documents/MCPhoton2/src/AzimuthalRej.cpp
+	cd /home/lujoke/Documents/CPP/MCPhoton/build/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/MCPhoton.dir/AzimuthalRej.cpp.o -c /home/lujoke/Documents/CPP/MCPhoton/src/AzimuthalRej.cpp
 
 src/CMakeFiles/MCPhoton.dir/AzimuthalRej.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/MCPhoton.dir/AzimuthalRej.cpp.i"
-	cd /home/lujoke/Documents/MCPhoton2/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/lujoke/Documents/MCPhoton2/src/AzimuthalRej.cpp > CMakeFiles/MCPhoton.dir/AzimuthalRej.cpp.i
+	cd /home/lujoke/Documents/CPP/MCPhoton/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/lujoke/Documents/CPP/MCPhoton/src/AzimuthalRej.cpp > CMakeFiles/MCPhoton.dir/AzimuthalRej.cpp.i
 
 src/CMakeFiles/MCPhoton.dir/AzimuthalRej.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/MCPhoton.dir/AzimuthalRej.cpp.s"
-	cd /home/lujoke/Documents/MCPhoton2/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/lujoke/Documents/MCPhoton2/src/AzimuthalRej.cpp -o CMakeFiles/MCPhoton.dir/AzimuthalRej.cpp.s
+	cd /home/lujoke/Documents/CPP/MCPhoton/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/lujoke/Documents/CPP/MCPhoton/src/AzimuthalRej.cpp -o CMakeFiles/MCPhoton.dir/AzimuthalRej.cpp.s
 
 src/CMakeFiles/MCPhoton.dir/AzimuthalRej.cpp.o.requires:
 .PHONY : src/CMakeFiles/MCPhoton.dir/AzimuthalRej.cpp.o.requires
@@ -166,17 +166,17 @@ src/CMakeFiles/MCPhoton.dir/AzimuthalRej.cpp.o.provides.build: src/CMakeFiles/MC
 
 src/CMakeFiles/MCPhoton.dir/PhotonTransport.cpp.o: src/CMakeFiles/MCPhoton.dir/flags.make
 src/CMakeFiles/MCPhoton.dir/PhotonTransport.cpp.o: ../src/PhotonTransport.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/lujoke/Documents/MCPhoton2/build/CMakeFiles $(CMAKE_PROGRESS_6)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/lujoke/Documents/CPP/MCPhoton/build/CMakeFiles $(CMAKE_PROGRESS_6)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/CMakeFiles/MCPhoton.dir/PhotonTransport.cpp.o"
-	cd /home/lujoke/Documents/MCPhoton2/build/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/MCPhoton.dir/PhotonTransport.cpp.o -c /home/lujoke/Documents/MCPhoton2/src/PhotonTransport.cpp
+	cd /home/lujoke/Documents/CPP/MCPhoton/build/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/MCPhoton.dir/PhotonTransport.cpp.o -c /home/lujoke/Documents/CPP/MCPhoton/src/PhotonTransport.cpp
 
 src/CMakeFiles/MCPhoton.dir/PhotonTransport.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/MCPhoton.dir/PhotonTransport.cpp.i"
-	cd /home/lujoke/Documents/MCPhoton2/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/lujoke/Documents/MCPhoton2/src/PhotonTransport.cpp > CMakeFiles/MCPhoton.dir/PhotonTransport.cpp.i
+	cd /home/lujoke/Documents/CPP/MCPhoton/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/lujoke/Documents/CPP/MCPhoton/src/PhotonTransport.cpp > CMakeFiles/MCPhoton.dir/PhotonTransport.cpp.i
 
 src/CMakeFiles/MCPhoton.dir/PhotonTransport.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/MCPhoton.dir/PhotonTransport.cpp.s"
-	cd /home/lujoke/Documents/MCPhoton2/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/lujoke/Documents/MCPhoton2/src/PhotonTransport.cpp -o CMakeFiles/MCPhoton.dir/PhotonTransport.cpp.s
+	cd /home/lujoke/Documents/CPP/MCPhoton/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/lujoke/Documents/CPP/MCPhoton/src/PhotonTransport.cpp -o CMakeFiles/MCPhoton.dir/PhotonTransport.cpp.s
 
 src/CMakeFiles/MCPhoton.dir/PhotonTransport.cpp.o.requires:
 .PHONY : src/CMakeFiles/MCPhoton.dir/PhotonTransport.cpp.o.requires
@@ -189,17 +189,17 @@ src/CMakeFiles/MCPhoton.dir/PhotonTransport.cpp.o.provides.build: src/CMakeFiles
 
 src/CMakeFiles/MCPhoton.dir/PhotonScatter.cpp.o: src/CMakeFiles/MCPhoton.dir/flags.make
 src/CMakeFiles/MCPhoton.dir/PhotonScatter.cpp.o: ../src/PhotonScatter.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/lujoke/Documents/MCPhoton2/build/CMakeFiles $(CMAKE_PROGRESS_7)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/lujoke/Documents/CPP/MCPhoton/build/CMakeFiles $(CMAKE_PROGRESS_7)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/CMakeFiles/MCPhoton.dir/PhotonScatter.cpp.o"
-	cd /home/lujoke/Documents/MCPhoton2/build/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/MCPhoton.dir/PhotonScatter.cpp.o -c /home/lujoke/Documents/MCPhoton2/src/PhotonScatter.cpp
+	cd /home/lujoke/Documents/CPP/MCPhoton/build/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/MCPhoton.dir/PhotonScatter.cpp.o -c /home/lujoke/Documents/CPP/MCPhoton/src/PhotonScatter.cpp
 
 src/CMakeFiles/MCPhoton.dir/PhotonScatter.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/MCPhoton.dir/PhotonScatter.cpp.i"
-	cd /home/lujoke/Documents/MCPhoton2/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/lujoke/Documents/MCPhoton2/src/PhotonScatter.cpp > CMakeFiles/MCPhoton.dir/PhotonScatter.cpp.i
+	cd /home/lujoke/Documents/CPP/MCPhoton/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/lujoke/Documents/CPP/MCPhoton/src/PhotonScatter.cpp > CMakeFiles/MCPhoton.dir/PhotonScatter.cpp.i
 
 src/CMakeFiles/MCPhoton.dir/PhotonScatter.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/MCPhoton.dir/PhotonScatter.cpp.s"
-	cd /home/lujoke/Documents/MCPhoton2/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/lujoke/Documents/MCPhoton2/src/PhotonScatter.cpp -o CMakeFiles/MCPhoton.dir/PhotonScatter.cpp.s
+	cd /home/lujoke/Documents/CPP/MCPhoton/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/lujoke/Documents/CPP/MCPhoton/src/PhotonScatter.cpp -o CMakeFiles/MCPhoton.dir/PhotonScatter.cpp.s
 
 src/CMakeFiles/MCPhoton.dir/PhotonScatter.cpp.o.requires:
 .PHONY : src/CMakeFiles/MCPhoton.dir/PhotonScatter.cpp.o.requires
@@ -212,17 +212,17 @@ src/CMakeFiles/MCPhoton.dir/PhotonScatter.cpp.o.provides.build: src/CMakeFiles/M
 
 src/CMakeFiles/MCPhoton.dir/MCPhoton.cpp.o: src/CMakeFiles/MCPhoton.dir/flags.make
 src/CMakeFiles/MCPhoton.dir/MCPhoton.cpp.o: ../src/MCPhoton.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/lujoke/Documents/MCPhoton2/build/CMakeFiles $(CMAKE_PROGRESS_8)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/lujoke/Documents/CPP/MCPhoton/build/CMakeFiles $(CMAKE_PROGRESS_8)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/CMakeFiles/MCPhoton.dir/MCPhoton.cpp.o"
-	cd /home/lujoke/Documents/MCPhoton2/build/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/MCPhoton.dir/MCPhoton.cpp.o -c /home/lujoke/Documents/MCPhoton2/src/MCPhoton.cpp
+	cd /home/lujoke/Documents/CPP/MCPhoton/build/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/MCPhoton.dir/MCPhoton.cpp.o -c /home/lujoke/Documents/CPP/MCPhoton/src/MCPhoton.cpp
 
 src/CMakeFiles/MCPhoton.dir/MCPhoton.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/MCPhoton.dir/MCPhoton.cpp.i"
-	cd /home/lujoke/Documents/MCPhoton2/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/lujoke/Documents/MCPhoton2/src/MCPhoton.cpp > CMakeFiles/MCPhoton.dir/MCPhoton.cpp.i
+	cd /home/lujoke/Documents/CPP/MCPhoton/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/lujoke/Documents/CPP/MCPhoton/src/MCPhoton.cpp > CMakeFiles/MCPhoton.dir/MCPhoton.cpp.i
 
 src/CMakeFiles/MCPhoton.dir/MCPhoton.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/MCPhoton.dir/MCPhoton.cpp.s"
-	cd /home/lujoke/Documents/MCPhoton2/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/lujoke/Documents/MCPhoton2/src/MCPhoton.cpp -o CMakeFiles/MCPhoton.dir/MCPhoton.cpp.s
+	cd /home/lujoke/Documents/CPP/MCPhoton/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/lujoke/Documents/CPP/MCPhoton/src/MCPhoton.cpp -o CMakeFiles/MCPhoton.dir/MCPhoton.cpp.s
 
 src/CMakeFiles/MCPhoton.dir/MCPhoton.cpp.o.requires:
 .PHONY : src/CMakeFiles/MCPhoton.dir/MCPhoton.cpp.o.requires
@@ -247,21 +247,21 @@ MCPhoton_OBJECTS = \
 # External object files for target MCPhoton
 MCPhoton_EXTERNAL_OBJECTS =
 
-src/MCPhoton: src/CMakeFiles/MCPhoton.dir/Interpolate.cpp.o
-src/MCPhoton: src/CMakeFiles/MCPhoton.dir/KNRej.cpp.o
-src/MCPhoton: src/CMakeFiles/MCPhoton.dir/KNLinRej.cpp.o
-src/MCPhoton: src/CMakeFiles/MCPhoton.dir/ComptonScatter.cpp.o
-src/MCPhoton: src/CMakeFiles/MCPhoton.dir/AzimuthalRej.cpp.o
-src/MCPhoton: src/CMakeFiles/MCPhoton.dir/PhotonTransport.cpp.o
-src/MCPhoton: src/CMakeFiles/MCPhoton.dir/PhotonScatter.cpp.o
-src/MCPhoton: src/CMakeFiles/MCPhoton.dir/MCPhoton.cpp.o
-src/MCPhoton: src/CMakeFiles/MCPhoton.dir/build.make
-src/MCPhoton: src/CMakeFiles/MCPhoton.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --red --bold "Linking CXX executable MCPhoton"
-	cd /home/lujoke/Documents/MCPhoton2/build/src && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/MCPhoton.dir/link.txt --verbose=$(VERBOSE)
+src/MCP: src/CMakeFiles/MCPhoton.dir/Interpolate.cpp.o
+src/MCP: src/CMakeFiles/MCPhoton.dir/KNRej.cpp.o
+src/MCP: src/CMakeFiles/MCPhoton.dir/KNLinRej.cpp.o
+src/MCP: src/CMakeFiles/MCPhoton.dir/ComptonScatter.cpp.o
+src/MCP: src/CMakeFiles/MCPhoton.dir/AzimuthalRej.cpp.o
+src/MCP: src/CMakeFiles/MCPhoton.dir/PhotonTransport.cpp.o
+src/MCP: src/CMakeFiles/MCPhoton.dir/PhotonScatter.cpp.o
+src/MCP: src/CMakeFiles/MCPhoton.dir/MCPhoton.cpp.o
+src/MCP: src/CMakeFiles/MCPhoton.dir/build.make
+src/MCP: src/CMakeFiles/MCPhoton.dir/link.txt
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --red --bold "Linking CXX executable MCP"
+	cd /home/lujoke/Documents/CPP/MCPhoton/build/src && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/MCPhoton.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
-src/CMakeFiles/MCPhoton.dir/build: src/MCPhoton
+src/CMakeFiles/MCPhoton.dir/build: src/MCP
 .PHONY : src/CMakeFiles/MCPhoton.dir/build
 
 src/CMakeFiles/MCPhoton.dir/requires: src/CMakeFiles/MCPhoton.dir/Interpolate.cpp.o.requires
@@ -275,10 +275,10 @@ src/CMakeFiles/MCPhoton.dir/requires: src/CMakeFiles/MCPhoton.dir/MCPhoton.cpp.o
 .PHONY : src/CMakeFiles/MCPhoton.dir/requires
 
 src/CMakeFiles/MCPhoton.dir/clean:
-	cd /home/lujoke/Documents/MCPhoton2/build/src && $(CMAKE_COMMAND) -P CMakeFiles/MCPhoton.dir/cmake_clean.cmake
+	cd /home/lujoke/Documents/CPP/MCPhoton/build/src && $(CMAKE_COMMAND) -P CMakeFiles/MCPhoton.dir/cmake_clean.cmake
 .PHONY : src/CMakeFiles/MCPhoton.dir/clean
 
 src/CMakeFiles/MCPhoton.dir/depend:
-	cd /home/lujoke/Documents/MCPhoton2/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/lujoke/Documents/MCPhoton2 /home/lujoke/Documents/MCPhoton2/src /home/lujoke/Documents/MCPhoton2/build /home/lujoke/Documents/MCPhoton2/build/src /home/lujoke/Documents/MCPhoton2/build/src/CMakeFiles/MCPhoton.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/lujoke/Documents/CPP/MCPhoton/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/lujoke/Documents/CPP/MCPhoton /home/lujoke/Documents/CPP/MCPhoton/src /home/lujoke/Documents/CPP/MCPhoton/build /home/lujoke/Documents/CPP/MCPhoton/build/src /home/lujoke/Documents/CPP/MCPhoton/build/src/CMakeFiles/MCPhoton.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : src/CMakeFiles/MCPhoton.dir/depend
 

@@ -7,8 +7,8 @@ FILE(REMOVE_RECURSE
   "CMakeFiles/MCPhoton.dir/PhotonTransport.cpp.o"
   "CMakeFiles/MCPhoton.dir/PhotonScatter.cpp.o"
   "CMakeFiles/MCPhoton.dir/MCPhoton.cpp.o"
-  "MCPhoton.pdb"
-  "MCPhoton"
+  "MCP.pdb"
+  "MCP"
 )
 
 # Per-language clean rules from dependency scanning.

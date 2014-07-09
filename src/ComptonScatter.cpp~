@@ -14,7 +14,7 @@
 #include "Interpolate.hpp"
 
 // Define data directory
-//#define DIR "/home/lujoke/Documents/MCPhoton2/data"
+#define DIR "_DATA_DIRECTORY"
 //#define _INTERPOLATOR2 getLinearInterpolation2
 
 // Sample compton scattering using the two track method
