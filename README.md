@@ -47,8 +47,14 @@ $ mkdir build
 $ cd build
 $ cmake ..
 ```
+b) If you are not compiling for the 1st time, clean out old file. 
+(NOTE: If you don't your inertpolation options might not update)
 
-b) Choose the desired data interpolator and polar angle rejection technique:
+```
+$ make clean
+```
+
+c) Choose the desired data interpolator and polar angle rejection technique:
 [rejtech] constant, linear, or twopath
 [interpolator] lin or log
 

@@ -127,6 +127,30 @@ void ComptonScatter (	double (&alpha),
 
 	} //End of while track loop
 
+	if ( mu > 1.0 || mu < -1.0 )
+	{
+		std::cout << "Invalid value for mu: " << mu << std::endl;
+		exit (EXIT_FAILURE);
+	}
+
+	if ( t >= 1.0 )
+	{
+		std::cout << "Invalid value for t: " << t << std::endl;
+		exit (EXIT_FAILURE);
+	}
+
+	if ( S/Z > 1.0 )
+	{
+		std::cout << "Invalid value for S: " << S << std::endl;
+		exit (EXIT_FAILURE);
+	}
+
+	if ( r1 > 1.0 || r2 > 1.0 || r3 > 1.0)
+	{
+		std::cout << "Invalid value for S" << std::endl;
+		exit (EXIT_FAILURE);
+	}
+
 }
 
 //---------------------------------------------------------------------------//
