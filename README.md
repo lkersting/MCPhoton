@@ -47,8 +47,14 @@ $ mkdir build
 $ cd build
 $ cmake ..
 ```
+b) If you are not compiling for the 1st time, clean out old file. 
+(NOTE: If you don't your inertpolation options might not update)
 
-b) Choose the desired data interpolator and polar angle rejection technique:
+```
+$ make clean
+```
+
+c) Choose the desired data interpolator and polar angle rejection technique:
 [rejtech] constant, linear, or twopath
 [interpolator] lin or log
 
@@ -71,14 +77,24 @@ a) From build run the exacutable (located in build/src)
 $ ./src/MCPhoton
 ```
 
-b) Follow the onscreen command to enter the # of photons to be modeled.
+b) Follow the onscreen command to enter the radius for the ring "detector".
+
+c) Follow the onscreen command to enter the # of photons to be modeled.
 NOTE: the number cannot be in entered in shorthand.  
 ie: 10000 (correct)      
 	1E4   (Incorrect)
 
-After the program has finished running it will print out how many photons exited
-forward through the back of the shield, backward through the front of the 
-shield, and how many were absorbed.
-If any photons exited forward through the back of the shield it will display a 
-histogram of their final energies and the scalar flux.
-Finally, the total time it took the program to run will also be displayed.
+After running it will display:
+how many photons were transmitted, reflected, absorbed, 
+the flux approximated by a buildup factor, 
+the total time it took the program to run.
+
+If any photons were transmitted it will display:
+the scalar flux (normalized to an area of 1 cm^2),
+the ring flux (normalized to the area of a ring of your chossing),
+and the location of the histogram txt file
+
+Finally, it will produce two txt files located in the MCPhoton directory:
+A histogram of the transmitted photon energies and
+A file with the x & y coordinates as well as the cosine crossing angle with 
+repect to the z plane (mu).

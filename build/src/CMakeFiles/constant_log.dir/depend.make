@@ -11,3 +11,5 @@ src/CMakeFiles/constant_log.dir/KNRej.cpp.o: ../src/KNRej.cpp
 
 src/CMakeFiles/constant_log.dir/PhotonTransport.cpp.o: ../src/PhotonTransport.cpp
 
+src/CMakeFiles/constant_log.dir/RingDetector.cpp.o: ../src/RingDetector.cpp
+

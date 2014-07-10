@@ -27,10 +27,16 @@ PhotonScatter.hpp
 /home/lujoke/Documents/CPP/MCPhoton/src/PhotonScatter.hpp
 Interpolate.hpp
 /home/lujoke/Documents/CPP/MCPhoton/src/Interpolate.hpp
+RingDetector.hpp
+/home/lujoke/Documents/CPP/MCPhoton/src/RingDetector.hpp
 iostream
+-
+fstream
 -
 
 /home/lujoke/Documents/CPP/MCPhoton/src/PhotonScatter.hpp
 
 /home/lujoke/Documents/CPP/MCPhoton/src/PhotonTransport.hpp
+
+/home/lujoke/Documents/CPP/MCPhoton/src/RingDetector.hpp
 

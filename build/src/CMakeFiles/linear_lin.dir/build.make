@@ -49,9 +49,32 @@ include src/CMakeFiles/linear_lin.dir/progress.make
 # Include the compile flags for this target's objects.
 include src/CMakeFiles/linear_lin.dir/flags.make
 
+src/CMakeFiles/linear_lin.dir/RingDetector.cpp.o: src/CMakeFiles/linear_lin.dir/flags.make
+src/CMakeFiles/linear_lin.dir/RingDetector.cpp.o: ../src/RingDetector.cpp
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/lujoke/Documents/CPP/MCPhoton/build/CMakeFiles $(CMAKE_PROGRESS_1)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/CMakeFiles/linear_lin.dir/RingDetector.cpp.o"
+	cd /home/lujoke/Documents/CPP/MCPhoton/build/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/linear_lin.dir/RingDetector.cpp.o -c /home/lujoke/Documents/CPP/MCPhoton/src/RingDetector.cpp
+
+src/CMakeFiles/linear_lin.dir/RingDetector.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/linear_lin.dir/RingDetector.cpp.i"
+	cd /home/lujoke/Documents/CPP/MCPhoton/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/lujoke/Documents/CPP/MCPhoton/src/RingDetector.cpp > CMakeFiles/linear_lin.dir/RingDetector.cpp.i
+
+src/CMakeFiles/linear_lin.dir/RingDetector.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/linear_lin.dir/RingDetector.cpp.s"
+	cd /home/lujoke/Documents/CPP/MCPhoton/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/lujoke/Documents/CPP/MCPhoton/src/RingDetector.cpp -o CMakeFiles/linear_lin.dir/RingDetector.cpp.s
+
+src/CMakeFiles/linear_lin.dir/RingDetector.cpp.o.requires:
+.PHONY : src/CMakeFiles/linear_lin.dir/RingDetector.cpp.o.requires
+
+src/CMakeFiles/linear_lin.dir/RingDetector.cpp.o.provides: src/CMakeFiles/linear_lin.dir/RingDetector.cpp.o.requires
+	$(MAKE) -f src/CMakeFiles/linear_lin.dir/build.make src/CMakeFiles/linear_lin.dir/RingDetector.cpp.o.provides.build
+.PHONY : src/CMakeFiles/linear_lin.dir/RingDetector.cpp.o.provides
+
+src/CMakeFiles/linear_lin.dir/RingDetector.cpp.o.provides.build: src/CMakeFiles/linear_lin.dir/RingDetector.cpp.o
+
 src/CMakeFiles/linear_lin.dir/Interpolate.cpp.o: src/CMakeFiles/linear_lin.dir/flags.make
 src/CMakeFiles/linear_lin.dir/Interpolate.cpp.o: ../src/Interpolate.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/lujoke/Documents/CPP/MCPhoton/build/CMakeFiles $(CMAKE_PROGRESS_1)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/lujoke/Documents/CPP/MCPhoton/build/CMakeFiles $(CMAKE_PROGRESS_2)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/CMakeFiles/linear_lin.dir/Interpolate.cpp.o"
 	cd /home/lujoke/Documents/CPP/MCPhoton/build/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/linear_lin.dir/Interpolate.cpp.o -c /home/lujoke/Documents/CPP/MCPhoton/src/Interpolate.cpp
 
@@ -74,7 +97,7 @@ src/CMakeFiles/linear_lin.dir/Interpolate.cpp.o.provides.build: src/CMakeFiles/l
 
 src/CMakeFiles/linear_lin.dir/KNRej.cpp.o: src/CMakeFiles/linear_lin.dir/flags.make
 src/CMakeFiles/linear_lin.dir/KNRej.cpp.o: ../src/KNRej.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/lujoke/Documents/CPP/MCPhoton/build/CMakeFiles $(CMAKE_PROGRESS_2)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/lujoke/Documents/CPP/MCPhoton/build/CMakeFiles $(CMAKE_PROGRESS_3)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/CMakeFiles/linear_lin.dir/KNRej.cpp.o"
 	cd /home/lujoke/Documents/CPP/MCPhoton/build/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/linear_lin.dir/KNRej.cpp.o -c /home/lujoke/Documents/CPP/MCPhoton/src/KNRej.cpp
 
@@ -97,7 +120,7 @@ src/CMakeFiles/linear_lin.dir/KNRej.cpp.o.provides.build: src/CMakeFiles/linear_
 
 src/CMakeFiles/linear_lin.dir/KNLinRej.cpp.o: src/CMakeFiles/linear_lin.dir/flags.make
 src/CMakeFiles/linear_lin.dir/KNLinRej.cpp.o: ../src/KNLinRej.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/lujoke/Documents/CPP/MCPhoton/build/CMakeFiles $(CMAKE_PROGRESS_3)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/lujoke/Documents/CPP/MCPhoton/build/CMakeFiles $(CMAKE_PROGRESS_4)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/CMakeFiles/linear_lin.dir/KNLinRej.cpp.o"
 	cd /home/lujoke/Documents/CPP/MCPhoton/build/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/linear_lin.dir/KNLinRej.cpp.o -c /home/lujoke/Documents/CPP/MCPhoton/src/KNLinRej.cpp
 
@@ -120,7 +143,7 @@ src/CMakeFiles/linear_lin.dir/KNLinRej.cpp.o.provides.build: src/CMakeFiles/line
 
 src/CMakeFiles/linear_lin.dir/AzimuthalRej.cpp.o: src/CMakeFiles/linear_lin.dir/flags.make
 src/CMakeFiles/linear_lin.dir/AzimuthalRej.cpp.o: ../src/AzimuthalRej.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/lujoke/Documents/CPP/MCPhoton/build/CMakeFiles $(CMAKE_PROGRESS_4)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/lujoke/Documents/CPP/MCPhoton/build/CMakeFiles $(CMAKE_PROGRESS_5)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/CMakeFiles/linear_lin.dir/AzimuthalRej.cpp.o"
 	cd /home/lujoke/Documents/CPP/MCPhoton/build/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/linear_lin.dir/AzimuthalRej.cpp.o -c /home/lujoke/Documents/CPP/MCPhoton/src/AzimuthalRej.cpp
 
@@ -143,7 +166,7 @@ src/CMakeFiles/linear_lin.dir/AzimuthalRej.cpp.o.provides.build: src/CMakeFiles/
 
 src/CMakeFiles/linear_lin.dir/PhotonTransport.cpp.o: src/CMakeFiles/linear_lin.dir/flags.make
 src/CMakeFiles/linear_lin.dir/PhotonTransport.cpp.o: ../src/PhotonTransport.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/lujoke/Documents/CPP/MCPhoton/build/CMakeFiles $(CMAKE_PROGRESS_5)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/lujoke/Documents/CPP/MCPhoton/build/CMakeFiles $(CMAKE_PROGRESS_6)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/CMakeFiles/linear_lin.dir/PhotonTransport.cpp.o"
 	cd /home/lujoke/Documents/CPP/MCPhoton/build/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/linear_lin.dir/PhotonTransport.cpp.o -c /home/lujoke/Documents/CPP/MCPhoton/src/PhotonTransport.cpp
 
@@ -166,6 +189,7 @@ src/CMakeFiles/linear_lin.dir/PhotonTransport.cpp.o.provides.build: src/CMakeFil
 
 # Object files for target linear_lin
 linear_lin_OBJECTS = \
+"CMakeFiles/linear_lin.dir/RingDetector.cpp.o" \
 "CMakeFiles/linear_lin.dir/Interpolate.cpp.o" \
 "CMakeFiles/linear_lin.dir/KNRej.cpp.o" \
 "CMakeFiles/linear_lin.dir/KNLinRej.cpp.o" \
@@ -175,6 +199,7 @@ linear_lin_OBJECTS = \
 # External object files for target linear_lin
 linear_lin_EXTERNAL_OBJECTS =
 
+src/MCPhoton: src/CMakeFiles/linear_lin.dir/RingDetector.cpp.o
 src/MCPhoton: src/CMakeFiles/linear_lin.dir/Interpolate.cpp.o
 src/MCPhoton: src/CMakeFiles/linear_lin.dir/KNRej.cpp.o
 src/MCPhoton: src/CMakeFiles/linear_lin.dir/KNLinRej.cpp.o
@@ -191,6 +216,7 @@ src/MCPhoton: src/CMakeFiles/linear_lin.dir/link.txt
 src/CMakeFiles/linear_lin.dir/build: src/MCPhoton
 .PHONY : src/CMakeFiles/linear_lin.dir/build
 
+src/CMakeFiles/linear_lin.dir/requires: src/CMakeFiles/linear_lin.dir/RingDetector.cpp.o.requires
 src/CMakeFiles/linear_lin.dir/requires: src/CMakeFiles/linear_lin.dir/Interpolate.cpp.o.requires
 src/CMakeFiles/linear_lin.dir/requires: src/CMakeFiles/linear_lin.dir/KNRej.cpp.o.requires
 src/CMakeFiles/linear_lin.dir/requires: src/CMakeFiles/linear_lin.dir/KNLinRej.cpp.o.requires

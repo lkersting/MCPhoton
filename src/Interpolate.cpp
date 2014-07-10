@@ -49,6 +49,7 @@ void getLinearInterpolation2 ( std::string filename,
 	{ 
     	// Show error message
     	std::cout << "Error!\n" << filename << "\nThe above file path is invalid!\n";
+		exit (EXIT_FAILURE);
 	}
 
 	// Search for two closest values to x in data set
@@ -87,6 +88,7 @@ void getLinearInterpolation3 ( std::string filename,
 	{ 
     	// Show error message
     	std::cout << "Error!\n" << filename << "\nThe above file path is invalid!\n";
+		exit (EXIT_FAILURE);
 	}
 
 	// Search for two closest values to x in data set
@@ -128,6 +130,7 @@ void getLogInterpolation2 ( std::string filename,
 	{ 
     	// Show error message
     	std::cout << "Error!\n" << filename << "\nThe above file path is invalid!\n";
+		exit (EXIT_FAILURE);
 	}
 
 	// Search for two closest values to x in data set
@@ -166,6 +169,7 @@ void getLogInterpolation3 ( std::string filename,
 	{ 
     	// Show error message
     	std::cout << "Error!\n" << filename << "\nThe above file path is invalid!\n";
+		exit (EXIT_FAILURE);
 	}
 
 	// Search for two closest values to x in data set

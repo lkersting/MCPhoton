@@ -10,6 +10,7 @@ SET(CMAKE_DEPENDS_CHECK_CXX
   "/home/lujoke/Documents/CPP/MCPhoton/src/KNLinRej.cpp" "/home/lujoke/Documents/CPP/MCPhoton/build/src/CMakeFiles/twopath_log.dir/KNLinRej.cpp.o"
   "/home/lujoke/Documents/CPP/MCPhoton/src/KNRej.cpp" "/home/lujoke/Documents/CPP/MCPhoton/build/src/CMakeFiles/twopath_log.dir/KNRej.cpp.o"
   "/home/lujoke/Documents/CPP/MCPhoton/src/PhotonTransport.cpp" "/home/lujoke/Documents/CPP/MCPhoton/build/src/CMakeFiles/twopath_log.dir/PhotonTransport.cpp.o"
+  "/home/lujoke/Documents/CPP/MCPhoton/src/RingDetector.cpp" "/home/lujoke/Documents/CPP/MCPhoton/build/src/CMakeFiles/twopath_log.dir/RingDetector.cpp.o"
   )
 SET(CMAKE_CXX_COMPILER_ID "GNU")
 

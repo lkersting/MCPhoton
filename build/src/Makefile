@@ -531,6 +531,45 @@ PhotonTransport.cpp.s:
 	cd /home/lujoke/Documents/CPP/MCPhoton/build && $(MAKE) -f src/CMakeFiles/twopath_log.dir/build.make src/CMakeFiles/twopath_log.dir/PhotonTransport.cpp.s
 .PHONY : PhotonTransport.cpp.s
 
+RingDetector.o: RingDetector.cpp.o
+.PHONY : RingDetector.o
+
+# target to build an object file
+RingDetector.cpp.o:
+	cd /home/lujoke/Documents/CPP/MCPhoton/build && $(MAKE) -f src/CMakeFiles/constant_lin.dir/build.make src/CMakeFiles/constant_lin.dir/RingDetector.cpp.o
+	cd /home/lujoke/Documents/CPP/MCPhoton/build && $(MAKE) -f src/CMakeFiles/constant_log.dir/build.make src/CMakeFiles/constant_log.dir/RingDetector.cpp.o
+	cd /home/lujoke/Documents/CPP/MCPhoton/build && $(MAKE) -f src/CMakeFiles/linear_lin.dir/build.make src/CMakeFiles/linear_lin.dir/RingDetector.cpp.o
+	cd /home/lujoke/Documents/CPP/MCPhoton/build && $(MAKE) -f src/CMakeFiles/linear_log.dir/build.make src/CMakeFiles/linear_log.dir/RingDetector.cpp.o
+	cd /home/lujoke/Documents/CPP/MCPhoton/build && $(MAKE) -f src/CMakeFiles/twopath_lin.dir/build.make src/CMakeFiles/twopath_lin.dir/RingDetector.cpp.o
+	cd /home/lujoke/Documents/CPP/MCPhoton/build && $(MAKE) -f src/CMakeFiles/twopath_log.dir/build.make src/CMakeFiles/twopath_log.dir/RingDetector.cpp.o
+.PHONY : RingDetector.cpp.o
+
+RingDetector.i: RingDetector.cpp.i
+.PHONY : RingDetector.i
+
+# target to preprocess a source file
+RingDetector.cpp.i:
+	cd /home/lujoke/Documents/CPP/MCPhoton/build && $(MAKE) -f src/CMakeFiles/constant_lin.dir/build.make src/CMakeFiles/constant_lin.dir/RingDetector.cpp.i
+	cd /home/lujoke/Documents/CPP/MCPhoton/build && $(MAKE) -f src/CMakeFiles/constant_log.dir/build.make src/CMakeFiles/constant_log.dir/RingDetector.cpp.i
+	cd /home/lujoke/Documents/CPP/MCPhoton/build && $(MAKE) -f src/CMakeFiles/linear_lin.dir/build.make src/CMakeFiles/linear_lin.dir/RingDetector.cpp.i
+	cd /home/lujoke/Documents/CPP/MCPhoton/build && $(MAKE) -f src/CMakeFiles/linear_log.dir/build.make src/CMakeFiles/linear_log.dir/RingDetector.cpp.i
+	cd /home/lujoke/Documents/CPP/MCPhoton/build && $(MAKE) -f src/CMakeFiles/twopath_lin.dir/build.make src/CMakeFiles/twopath_lin.dir/RingDetector.cpp.i
+	cd /home/lujoke/Documents/CPP/MCPhoton/build && $(MAKE) -f src/CMakeFiles/twopath_log.dir/build.make src/CMakeFiles/twopath_log.dir/RingDetector.cpp.i
+.PHONY : RingDetector.cpp.i
+
+RingDetector.s: RingDetector.cpp.s
+.PHONY : RingDetector.s
+
+# target to generate assembly for a file
+RingDetector.cpp.s:
+	cd /home/lujoke/Documents/CPP/MCPhoton/build && $(MAKE) -f src/CMakeFiles/constant_lin.dir/build.make src/CMakeFiles/constant_lin.dir/RingDetector.cpp.s
+	cd /home/lujoke/Documents/CPP/MCPhoton/build && $(MAKE) -f src/CMakeFiles/constant_log.dir/build.make src/CMakeFiles/constant_log.dir/RingDetector.cpp.s
+	cd /home/lujoke/Documents/CPP/MCPhoton/build && $(MAKE) -f src/CMakeFiles/linear_lin.dir/build.make src/CMakeFiles/linear_lin.dir/RingDetector.cpp.s
+	cd /home/lujoke/Documents/CPP/MCPhoton/build && $(MAKE) -f src/CMakeFiles/linear_log.dir/build.make src/CMakeFiles/linear_log.dir/RingDetector.cpp.s
+	cd /home/lujoke/Documents/CPP/MCPhoton/build && $(MAKE) -f src/CMakeFiles/twopath_lin.dir/build.make src/CMakeFiles/twopath_lin.dir/RingDetector.cpp.s
+	cd /home/lujoke/Documents/CPP/MCPhoton/build && $(MAKE) -f src/CMakeFiles/twopath_log.dir/build.make src/CMakeFiles/twopath_log.dir/RingDetector.cpp.s
+.PHONY : RingDetector.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -574,6 +613,9 @@ help:
 	@echo "... PhotonTransport.o"
 	@echo "... PhotonTransport.i"
 	@echo "... PhotonTransport.s"
+	@echo "... RingDetector.o"
+	@echo "... RingDetector.i"
+	@echo "... RingDetector.s"
 .PHONY : help
 
 

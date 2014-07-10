@@ -49,9 +49,32 @@ include src/CMakeFiles/twopath_log.dir/progress.make
 # Include the compile flags for this target's objects.
 include src/CMakeFiles/twopath_log.dir/flags.make
 
+src/CMakeFiles/twopath_log.dir/RingDetector.cpp.o: src/CMakeFiles/twopath_log.dir/flags.make
+src/CMakeFiles/twopath_log.dir/RingDetector.cpp.o: ../src/RingDetector.cpp
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/lujoke/Documents/CPP/MCPhoton/build/CMakeFiles $(CMAKE_PROGRESS_1)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/CMakeFiles/twopath_log.dir/RingDetector.cpp.o"
+	cd /home/lujoke/Documents/CPP/MCPhoton/build/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/twopath_log.dir/RingDetector.cpp.o -c /home/lujoke/Documents/CPP/MCPhoton/src/RingDetector.cpp
+
+src/CMakeFiles/twopath_log.dir/RingDetector.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/twopath_log.dir/RingDetector.cpp.i"
+	cd /home/lujoke/Documents/CPP/MCPhoton/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/lujoke/Documents/CPP/MCPhoton/src/RingDetector.cpp > CMakeFiles/twopath_log.dir/RingDetector.cpp.i
+
+src/CMakeFiles/twopath_log.dir/RingDetector.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/twopath_log.dir/RingDetector.cpp.s"
+	cd /home/lujoke/Documents/CPP/MCPhoton/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/lujoke/Documents/CPP/MCPhoton/src/RingDetector.cpp -o CMakeFiles/twopath_log.dir/RingDetector.cpp.s
+
+src/CMakeFiles/twopath_log.dir/RingDetector.cpp.o.requires:
+.PHONY : src/CMakeFiles/twopath_log.dir/RingDetector.cpp.o.requires
+
+src/CMakeFiles/twopath_log.dir/RingDetector.cpp.o.provides: src/CMakeFiles/twopath_log.dir/RingDetector.cpp.o.requires
+	$(MAKE) -f src/CMakeFiles/twopath_log.dir/build.make src/CMakeFiles/twopath_log.dir/RingDetector.cpp.o.provides.build
+.PHONY : src/CMakeFiles/twopath_log.dir/RingDetector.cpp.o.provides
+
+src/CMakeFiles/twopath_log.dir/RingDetector.cpp.o.provides.build: src/CMakeFiles/twopath_log.dir/RingDetector.cpp.o
+
 src/CMakeFiles/twopath_log.dir/Interpolate.cpp.o: src/CMakeFiles/twopath_log.dir/flags.make
 src/CMakeFiles/twopath_log.dir/Interpolate.cpp.o: ../src/Interpolate.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/lujoke/Documents/CPP/MCPhoton/build/CMakeFiles $(CMAKE_PROGRESS_1)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/lujoke/Documents/CPP/MCPhoton/build/CMakeFiles $(CMAKE_PROGRESS_2)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/CMakeFiles/twopath_log.dir/Interpolate.cpp.o"
 	cd /home/lujoke/Documents/CPP/MCPhoton/build/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/twopath_log.dir/Interpolate.cpp.o -c /home/lujoke/Documents/CPP/MCPhoton/src/Interpolate.cpp
 
@@ -74,7 +97,7 @@ src/CMakeFiles/twopath_log.dir/Interpolate.cpp.o.provides.build: src/CMakeFiles/
 
 src/CMakeFiles/twopath_log.dir/KNRej.cpp.o: src/CMakeFiles/twopath_log.dir/flags.make
 src/CMakeFiles/twopath_log.dir/KNRej.cpp.o: ../src/KNRej.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/lujoke/Documents/CPP/MCPhoton/build/CMakeFiles $(CMAKE_PROGRESS_2)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/lujoke/Documents/CPP/MCPhoton/build/CMakeFiles $(CMAKE_PROGRESS_3)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/CMakeFiles/twopath_log.dir/KNRej.cpp.o"
 	cd /home/lujoke/Documents/CPP/MCPhoton/build/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/twopath_log.dir/KNRej.cpp.o -c /home/lujoke/Documents/CPP/MCPhoton/src/KNRej.cpp
 
@@ -97,7 +120,7 @@ src/CMakeFiles/twopath_log.dir/KNRej.cpp.o.provides.build: src/CMakeFiles/twopat
 
 src/CMakeFiles/twopath_log.dir/KNLinRej.cpp.o: src/CMakeFiles/twopath_log.dir/flags.make
 src/CMakeFiles/twopath_log.dir/KNLinRej.cpp.o: ../src/KNLinRej.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/lujoke/Documents/CPP/MCPhoton/build/CMakeFiles $(CMAKE_PROGRESS_3)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/lujoke/Documents/CPP/MCPhoton/build/CMakeFiles $(CMAKE_PROGRESS_4)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/CMakeFiles/twopath_log.dir/KNLinRej.cpp.o"
 	cd /home/lujoke/Documents/CPP/MCPhoton/build/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/twopath_log.dir/KNLinRej.cpp.o -c /home/lujoke/Documents/CPP/MCPhoton/src/KNLinRej.cpp
 
@@ -120,7 +143,7 @@ src/CMakeFiles/twopath_log.dir/KNLinRej.cpp.o.provides.build: src/CMakeFiles/two
 
 src/CMakeFiles/twopath_log.dir/AzimuthalRej.cpp.o: src/CMakeFiles/twopath_log.dir/flags.make
 src/CMakeFiles/twopath_log.dir/AzimuthalRej.cpp.o: ../src/AzimuthalRej.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/lujoke/Documents/CPP/MCPhoton/build/CMakeFiles $(CMAKE_PROGRESS_4)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/lujoke/Documents/CPP/MCPhoton/build/CMakeFiles $(CMAKE_PROGRESS_5)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/CMakeFiles/twopath_log.dir/AzimuthalRej.cpp.o"
 	cd /home/lujoke/Documents/CPP/MCPhoton/build/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/twopath_log.dir/AzimuthalRej.cpp.o -c /home/lujoke/Documents/CPP/MCPhoton/src/AzimuthalRej.cpp
 
@@ -143,7 +166,7 @@ src/CMakeFiles/twopath_log.dir/AzimuthalRej.cpp.o.provides.build: src/CMakeFiles
 
 src/CMakeFiles/twopath_log.dir/PhotonTransport.cpp.o: src/CMakeFiles/twopath_log.dir/flags.make
 src/CMakeFiles/twopath_log.dir/PhotonTransport.cpp.o: ../src/PhotonTransport.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/lujoke/Documents/CPP/MCPhoton/build/CMakeFiles $(CMAKE_PROGRESS_5)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/lujoke/Documents/CPP/MCPhoton/build/CMakeFiles $(CMAKE_PROGRESS_6)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/CMakeFiles/twopath_log.dir/PhotonTransport.cpp.o"
 	cd /home/lujoke/Documents/CPP/MCPhoton/build/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/twopath_log.dir/PhotonTransport.cpp.o -c /home/lujoke/Documents/CPP/MCPhoton/src/PhotonTransport.cpp
 
@@ -166,7 +189,7 @@ src/CMakeFiles/twopath_log.dir/PhotonTransport.cpp.o.provides.build: src/CMakeFi
 
 src/CMakeFiles/twopath_log.dir/ComptonScatter.cpp.o: src/CMakeFiles/twopath_log.dir/flags.make
 src/CMakeFiles/twopath_log.dir/ComptonScatter.cpp.o: ../src/ComptonScatter.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/lujoke/Documents/CPP/MCPhoton/build/CMakeFiles $(CMAKE_PROGRESS_6)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/lujoke/Documents/CPP/MCPhoton/build/CMakeFiles $(CMAKE_PROGRESS_7)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/CMakeFiles/twopath_log.dir/ComptonScatter.cpp.o"
 	cd /home/lujoke/Documents/CPP/MCPhoton/build/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/twopath_log.dir/ComptonScatter.cpp.o -c /home/lujoke/Documents/CPP/MCPhoton/src/ComptonScatter.cpp
 
@@ -189,6 +212,7 @@ src/CMakeFiles/twopath_log.dir/ComptonScatter.cpp.o.provides.build: src/CMakeFil
 
 # Object files for target twopath_log
 twopath_log_OBJECTS = \
+"CMakeFiles/twopath_log.dir/RingDetector.cpp.o" \
 "CMakeFiles/twopath_log.dir/Interpolate.cpp.o" \
 "CMakeFiles/twopath_log.dir/KNRej.cpp.o" \
 "CMakeFiles/twopath_log.dir/KNLinRej.cpp.o" \
@@ -199,6 +223,7 @@ twopath_log_OBJECTS = \
 # External object files for target twopath_log
 twopath_log_EXTERNAL_OBJECTS =
 
+src/MCPhoton: src/CMakeFiles/twopath_log.dir/RingDetector.cpp.o
 src/MCPhoton: src/CMakeFiles/twopath_log.dir/Interpolate.cpp.o
 src/MCPhoton: src/CMakeFiles/twopath_log.dir/KNRej.cpp.o
 src/MCPhoton: src/CMakeFiles/twopath_log.dir/KNLinRej.cpp.o
@@ -216,6 +241,7 @@ src/MCPhoton: src/CMakeFiles/twopath_log.dir/link.txt
 src/CMakeFiles/twopath_log.dir/build: src/MCPhoton
 .PHONY : src/CMakeFiles/twopath_log.dir/build
 
+src/CMakeFiles/twopath_log.dir/requires: src/CMakeFiles/twopath_log.dir/RingDetector.cpp.o.requires
 src/CMakeFiles/twopath_log.dir/requires: src/CMakeFiles/twopath_log.dir/Interpolate.cpp.o.requires
 src/CMakeFiles/twopath_log.dir/requires: src/CMakeFiles/twopath_log.dir/KNRej.cpp.o.requires
 src/CMakeFiles/twopath_log.dir/requires: src/CMakeFiles/twopath_log.dir/KNLinRej.cpp.o.requires

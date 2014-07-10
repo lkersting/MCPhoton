@@ -11,6 +11,10 @@ cmath
 -
 cstdlib
 -
+ctime
+-
+iostream
+-
 
 /home/lujoke/Documents/CPP/MCPhoton/src/Interpolate.cpp
 fstream
@@ -29,16 +33,30 @@ cstdlib
 -
 iostream
 -
+ctime
+-
 
 /home/lujoke/Documents/CPP/MCPhoton/src/KNRej.cpp
 cstdlib
 -
 cmath
 -
+ctime
+-
 
 /home/lujoke/Documents/CPP/MCPhoton/src/PhotonTransport.cpp
 cmath
 -
 cstdlib
+-
+ctime
+-
+
+/home/lujoke/Documents/CPP/MCPhoton/src/RingDetector.cpp
+iostream
+-
+fstream
+-
+cmath
 -
 

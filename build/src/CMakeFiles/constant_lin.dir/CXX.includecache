@@ -6,3 +6,13 @@
 
 #IncludeRegexTransform: 
 
+/home/lujoke/Documents/CPP/MCPhoton/src/KNLinRej.cpp
+cmath
+-
+cstdlib
+-
+iostream
+-
+ctime
+-
+

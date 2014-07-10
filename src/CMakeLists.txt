@@ -5,6 +5,7 @@ SET(DIRECTORY
 
 SET(HEADERS 
   ${HEADERS}
+  RingDetector.hpp
   Interpolate.hpp
   KNRej.hpp
   KNLinRej.hpp
@@ -22,6 +23,7 @@ SET(CMAKE_CXX_FLAGS
 
 SET(SOURCES 
   ${SOURCES}
+  RingDetector.cpp
   Interpolate.cpp
   KNRej.cpp
   KNLinRej.cpp
@@ -50,7 +52,7 @@ TARGET_COMPILE_DEFINITIONS(
   Log
   PRIVATE
   _INTERPOLATOR3=getLogInterpolation3
-  DIR=/home/lujoke/Documents/CPP/MCPhoton/data
+  DIR=${DIRECTORY}
 )
 
 ADD_LIBRARY(

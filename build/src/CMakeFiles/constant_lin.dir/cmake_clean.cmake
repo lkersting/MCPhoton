@@ -1,4 +1,5 @@
 FILE(REMOVE_RECURSE
+  "CMakeFiles/constant_lin.dir/RingDetector.cpp.o"
   "CMakeFiles/constant_lin.dir/Interpolate.cpp.o"
   "CMakeFiles/constant_lin.dir/KNRej.cpp.o"
   "CMakeFiles/constant_lin.dir/KNLinRej.cpp.o"
