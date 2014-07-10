@@ -11,3 +11,5 @@ src/CMakeFiles/linear_lin.dir/KNRej.cpp.o: ../src/KNRej.cpp
 
 src/CMakeFiles/linear_lin.dir/PhotonTransport.cpp.o: ../src/PhotonTransport.cpp
 
+src/CMakeFiles/linear_lin.dir/RingDetector.cpp.o: ../src/RingDetector.cpp
+

@@ -9,6 +9,7 @@
 #include <cmath>
 #include <cstdlib>
 #include <iostream>
+#include <ctime>
 
 // Linear rejection function
 double s;
@@ -40,7 +41,6 @@ void KNpdf ( 	double (&q),
 void LinearRejFnct ( 	double (&alpha), 
 						double (&mu)    ) 
 {
-
 	// Term in qmin
 	double trm1 = 1.0/( 1.0 + 2.0*alpha );
 
@@ -54,10 +54,12 @@ void LinearRejFnct ( 	double (&alpha),
 	double trm2 = ( qmax - qmin )/( qmax + qmin );
 
 	// Random number for sampling ( 0 < rnd < 1 )
-	double rnd = std::rand()/(double)RAND_MAX;
+	double rnd;
+
+	srand( clock() );
+	rnd = std::rand()/(double)RAND_MAX;
 
 	// Sample for mu
-	//mu = 2.0*sqrt( pow(qmin,2) + rnd ) - 2.0*qmin - 1;
 	mu = ( sqrt( pow(trm2,2) + 4*( trm2*rnd + 1.0 - trm2 ) ) - 2.0 )/trm2;
 
 	// Calculate value of S
@@ -77,6 +79,8 @@ void KNLinRej( 	double (&alpha),
 
 	// Boolean variable for mu rejection loop
 	bool reject = true;
+
+	srand( clock() );
 
 	// Reject mu while reject = true
 	while (reject) {                    

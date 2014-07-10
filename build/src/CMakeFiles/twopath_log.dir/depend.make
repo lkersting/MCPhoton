@@ -14,3 +14,5 @@ src/CMakeFiles/twopath_log.dir/KNRej.cpp.o: ../src/KNRej.cpp
 
 src/CMakeFiles/twopath_log.dir/PhotonTransport.cpp.o: ../src/PhotonTransport.cpp
 
+src/CMakeFiles/twopath_log.dir/RingDetector.cpp.o: ../src/RingDetector.cpp
+

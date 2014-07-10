@@ -14,10 +14,13 @@
 // Number of histogram bins
 const int num_bins = 100;
 
+// Ring radius [cm]
+double ring_radius;
+
+main () 
+{
 // Histogram of exiting photons energy spectrum
 double hist[num_bins][2];
-
-main () {
 
 // Max photon histogram energy range [MeV]
 double val_max = 1.0;
@@ -37,8 +40,20 @@ const double N_Fe = 55.845;
 // Iron (Fe) absorption and total cross section data file [cm^2/g] (E in MeV)
 std::string name = "/MCPhoton/data/Fe.txt";
 
-// Full file path
+// Histogram file name
+std::string h_name = "/MCPhoton/histogram.txt";
+
+// X & Y location file name
+std::string xy_name = "/MCPhoton/location.txt";
+
+// Full cross section data file path
 std::string file = xstr(DIR) + name;
+
+// Histogram output file path
+std::string hist_name = xstr(DIR) + h_name;
+
+// X & Y location output file path
+std::string location_name = xstr(DIR) + xy_name;
 
 // Random number for interaction sampling
 double rnd;
@@ -52,8 +67,8 @@ double sigma_t;
 // Macro total cross section
 double Sig_t;
 
-// Current photon z location [cm]
-double z;
+// Current photon r location [cm]
+double r[3];
 
 // Current photon Orientation (u_x, u_y, u_z)
 double u[3];	
@@ -73,11 +88,11 @@ double Atten;
 // Boolean variable for looping particle transport inside the shield
 bool InShield;
 
-// Number of photons that exited backward from the shield
-int BackwardExit = 0;
+// Number of reflected photons
+int Reflected = 0;
 
-// Number of photons that exited forward from the shield
-int ForwardExit = 0;
+// Number of transmitted photons
+int Transmitted = 0;
 
 // Number of photons absorbed
 int Absorbed = 0;
@@ -92,22 +107,30 @@ std::clock_t start, end;
 double duration;
 
 // Number of photons being modeled 
-int NumPhotons;// = 1e5; 
+int NumPhotons; 
+
+// Buildup factor for 1 MeV photons in Iron
+double buildup = 21.1;
+
+srand( clock() );
 
 //---------------------------------------------------------------------------//
 // User inputs
 //---------------------------------------------------------------------------//
+// Input ring radius
+std::cout << "Choose the ring radius [cm]: ";
+std::cin >> ring_radius;
+
 // Input # of photons to be modeled
 std::cout << "Choose the number of photons to model (ie: 100000): ";
 std::cin >> NumPhotons;
 
+//---------------------------------------------------------------------------//
+// End user inputs
+//---------------------------------------------------------------------------//
+
 // Start timer
 start = std::clock();
-
-// Histogram bin center value
-for (int i = 0; i < num_bins; i++) {
-	hist[i][1] = val_min + (i + 0.5)*bin_width;
-}
 
 // Get the initial micro total cross section
 _INTERPOLATOR3 ( file, E, sigma_a, sigma_t );
@@ -119,15 +142,20 @@ Sig_t = sigma_t*N_Fe;
 thickness = mfp/Sig_t;
 
 // Approximate attenuation
-Atten = NumPhotons*exp(-10.0);
+Atten = NumPhotons*buildup*exp(-10.0);
 std::cout << "\n-------------------------------------------------\n" << 
-"The approximate attenuation was:\n" << Atten << " photons/cm\u00b2" << std::endl;
+"The approximate scalar flux was:\n" << Atten << " photons/cm\u00b2" << std::endl;
+
+// Open final x, y location output file
+std::ofstream locationxy;
+locationxy.open(location_name,std::ofstream::out);
 
 // Run Monte Carlo calculations for NumPhotons
 for (int p = 0; p < NumPhotons; p++) {
 
 	// Set initial photon location
-	z = 0.0;
+	r[0] = r[1] = 0.0;
+	r[2] = 0.0;
 
 	// Set initial photon Orientation
 	u[0] = u[1] = 0.0;
@@ -163,25 +191,30 @@ for (int p = 0; p < NumPhotons; p++) {
 			Sig_t = sigma_t*N_Fe;
 	
 			// Sample the mean free path to next collision
-			PhotonTransport ( z, u[2], Sig_t );
+			PhotonTransport ( r, u, Sig_t );
 
 			// Sample the scatter orientation and new energy
 			PhotonScatter ( u, E );
 
-			if (z <= 0.0){
-				// Tally backward exiting photons
-				BackwardExit ++;
+			if (r[2] <= 0.0){
+				// Tally Reflected photons
+				Reflected ++;
 	
 				// Exit inshield loop
 				InShield = false;
 			}
 		
-			else if (z >= thickness){
-				// Tally forward exiting photons
-				ForwardExit ++;
+			else if (r[2] >= thickness){
+				// Tally transmitted photons
+				Transmitted ++;
+
+				// Record final x and y location and cosine angle
+				locationxy  << r[0] << "\t\t"
+							<< r[1] << "\t\t"
+							<< u[2] << std::endl;
 
 				// Add the weighted crossing to the scalar flux
-				scalar_flux += abs(1.0/u[2]);
+				scalar_flux += fabs(1.0/u[2]);
 
 				// Find phton energy bin index
 				bin_idx = (int)((E - val_min) / bin_width);
@@ -199,6 +232,8 @@ for (int p = 0; p < NumPhotons; p++) {
 
 }	// End of NumPhoton loop
 
+locationxy.close();
+
 // Normalize scalar flux to total number of photons modeled
 scalar_flux /= NumPhotons;
 
@@ -208,39 +243,39 @@ end = std::clock();
 // Calculate total run time
 duration = ( end - start )/(double) CLOCKS_PER_SEC; 
 
-if (ForwardExit > 0 )
+// Open histogram output file
+std::ofstream histogram;
+histogram.open(hist_name,std::ofstream::out);
+
+// Histogram bin center value
+histogram << " #\t\t E [MeV]" << std::endl;
+for (int i = 0; i < num_bins; i++) {
+	hist[i][1] = val_min + (i + 0.5)*bin_width;
+    histogram << hist[i][0] << "\t\t" << hist[i][1] << std::endl;
+}
+histogram.close();
+
+if (Transmitted > 0 )
 {
-	// Print histogram header
+	// Print scalar flux
 	std::cout << "-------------------------------------------------\n" <<
-	"   Energy Histogram" <<
-	"\n--------------------------\n" <<
-	"#\t\tE [MeV]" << 
-	"\n--------------------------" << std::endl;
+	"The modeled scalar flux was:\n"<< scalar_flux << " 1/cm\u00b2\n" <<
+	scalar_flux*NumPhotons << " photons/cm\u00b2\n";
 
-	// Print histogram 
-	for ( int i = 0; i < num_bins; i++ ) {
-		if ( hist[i][0] != 0 ) {
-			std::cout << hist[i][0] << "\t\t" << hist[i][1] << std::endl;
-		}
-	}
+	// Print ring flux
+	Ring ( location_name, ring_radius, Transmitted, NumPhotons );
 
-// Print scalar flux
-std::cout << "-------------------------------------------------\n" <<
-"The scalar flux was:\n"<< scalar_flux << " 1/cm\u00b2\n" <<
-scalar_flux*NumPhotons << " photons/cm\u00b2\n\n";
-
-
-// Print approximate attenuation
-std::cout << "The approximate attenuation was:\n" << Atten << " photons/cm\u00b2\n";
-
+	// Print histogram location
+	std::cout << "-------------------------------------------------\n" <<
+	"Energy histogram outputted to:\n" << hist_name << std::endl;
 }
 
 // Print results
 std::cout << "-------------------------------------------------\n" << 
-BackwardExit << "\tphotons exited backward from the shield\n" << 
-ForwardExit << "\tphotons exited forward from the shield\n" << 
-Absorbed << "\tphotons absorbed\n"<<
-BackwardExit + ForwardExit + Absorbed << "\ttotal # of photons\n"<<
+Reflected << "\tPhotons Reflected\n" << 
+Transmitted << "\tPhotons Transmitted (Current)\n" << 
+Absorbed << "\tPhotons Absorbed\n"<<
+Reflected + Transmitted + Absorbed << "\tTotal # of Photons\n"<<
 "-------------------------------------------------" << std::endl;
 
 // Print total run time

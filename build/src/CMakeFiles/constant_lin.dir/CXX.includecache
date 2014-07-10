@@ -6,22 +6,6 @@
 
 #IncludeRegexTransform: 
 
-/home/lujoke/Documents/CPP/MCPhoton/src/AzimuthalRej.cpp
-cmath
--
-cstdlib
--
-
-/home/lujoke/Documents/CPP/MCPhoton/src/Interpolate.cpp
-fstream
--
-cmath
--
-string
--
-iostream
--
-
 /home/lujoke/Documents/CPP/MCPhoton/src/KNLinRej.cpp
 cmath
 -
@@ -29,16 +13,6 @@ cstdlib
 -
 iostream
 -
-
-/home/lujoke/Documents/CPP/MCPhoton/src/KNRej.cpp
-cstdlib
--
-cmath
--
-
-/home/lujoke/Documents/CPP/MCPhoton/src/PhotonTransport.cpp
-cmath
--
-cstdlib
+ctime
 -
 

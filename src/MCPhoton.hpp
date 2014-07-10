@@ -25,7 +25,9 @@
 #include "PhotonTransport.hpp"
 #include "PhotonScatter.hpp"
 #include "Interpolate.hpp"
+#include "RingDetector.hpp"
 #include <iostream>
+#include <fstream>
 
 
 #endif // end MC_PHOTON_HPP

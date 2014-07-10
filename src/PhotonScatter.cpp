@@ -66,47 +66,13 @@ double mu;
 double alpha = E/ELECTRON_MASS;
 
 // Sample azimuthal angle (phi)
-//AzRej( sin_phi, cos_phi );
-
-	// Random numbers used for sampling
-	double rnd1, rnd2;
-
-	// Points for sampling the azimuthal scattering angle
-	double x1, x2;
-
-	// Boolean variable for rejection loop
-	bool reject = true;
-
-	// Azimuthal angle (phi) rejection loop
-	while (reject) 
-	{                    
-		rnd1 = std::rand()/(double)RAND_MAX;
-		rnd2 = std::rand()/(double)RAND_MAX;
-		x1 = 2.0*rnd1 - 1.0;
-		x2 = 2.0*rnd2 - 1.0;
-
-		// Apply rejection criteria
-		if ( pow(x1,2) + pow(x2,2) < 1 ) 
-		{
-			// Accept the value of phi and terminate loop
-			reject = false;
-	
-			//Calculate the Cosine and Sine of the azimuthal angle
-			cos_phi = ( pow(x1,2) - pow(x2,2) )/( pow(x1,2) + pow(x2,2) );
-			sin_phi = ( 2*x1*x2 )/( pow(x1,2) + pow(x2,2) );		
-		}	// End rejection citeria
-
-	}	// End of while rejection loop
-
-
+AzRej( sin_phi, cos_phi );
 
 // Sample the polar scattering angle
 MU_REJECTION_SAMPLING ( alpha, mu );
 
 // Calculate new photon energy
 E = E/( 1.0 + alpha*( 1 - mu ) );
-//std::cout << E <<std::endl;
-//std::cout << mu <<'\t' <<alpha <<std::endl;
 
 // Calculate sin( theta ) from mu
 sin_theta = sqrt( 1.0 - pow(mu,2) );

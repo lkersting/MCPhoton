@@ -9,6 +9,7 @@
 // Std library icludes
 #include <cstdlib>
 #include <cmath>
+#include <ctime>
 
 // Polar angle rejection criteria for the Klein-Nishin angular scat dist
 void KNRej( double (&alpha),
@@ -25,6 +26,8 @@ void KNRej( double (&alpha),
 
 	// Boolean variable for mu rejection loop
 	bool reject = true;
+
+	srand( clock() );
 
 	while (reject) {
 		rnd1 = std::rand()/(double)RAND_MAX;                    

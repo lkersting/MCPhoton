@@ -9,7 +9,9 @@
 #include <string>
 #include <cstdlib>
 #include <cmath>
+#include <ctime>
 #include <iostream>
+
 // Other Includes
 #include "Interpolate.hpp"
 
@@ -52,6 +54,8 @@ void ComptonScatter (	double (&alpha),
 
 	// Continue sampling while reject = true
 	bool reject = true;
+
+	srand( clock() );
 
 	while (reject)
 	{
@@ -133,21 +137,21 @@ void ComptonScatter (	double (&alpha),
 		exit (EXIT_FAILURE);
 	}
 
-	if ( t >= 1.0 )
+	if ( t <= 1.0 )
 	{
 		std::cout << "Invalid value for t: " << t << std::endl;
 		exit (EXIT_FAILURE);
 	}
 
-	if ( S/Z > 1.0 )
+	if ( S/Z > 1.00001 )
 	{
-		std::cout << "Invalid value for S: " << S << std::endl;
+		std::cout << "Invalid value for S/Z: " << S/Z << std::endl;
 		exit (EXIT_FAILURE);
 	}
 
 	if ( r1 > 1.0 || r2 > 1.0 || r3 > 1.0)
 	{
-		std::cout << "Invalid value for S" << std::endl;
+		std::cout << "Invalid value for rand" << std::endl;
 		exit (EXIT_FAILURE);
 	}
 

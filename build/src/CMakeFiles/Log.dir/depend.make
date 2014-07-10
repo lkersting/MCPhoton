@@ -6,4 +6,5 @@ src/CMakeFiles/Log.dir/MCPhoton.cpp.o: ../src/MCPhoton.cpp
 src/CMakeFiles/Log.dir/MCPhoton.cpp.o: ../src/MCPhoton.hpp
 src/CMakeFiles/Log.dir/MCPhoton.cpp.o: ../src/PhotonScatter.hpp
 src/CMakeFiles/Log.dir/MCPhoton.cpp.o: ../src/PhotonTransport.hpp
+src/CMakeFiles/Log.dir/MCPhoton.cpp.o: ../src/RingDetector.hpp
 

@@ -8,6 +8,8 @@
 
 #include <cmath>
 #include <cstdlib>
+#include <ctime>
+#include <iostream>
 
 void AzRej( double (&sin_az),
 			double (&cos_az)	)
@@ -20,6 +22,8 @@ void AzRej( double (&sin_az),
 
 	// Boolean variable for rejection loop
 	bool reject = true;
+
+	srand( clock() );
 
 	// Azimuthal angle (phi) rejection loop
 	while (reject) 
