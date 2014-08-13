@@ -1,0 +1,3 @@
+FILE(REMOVE_RECURSE
+  "libLin2.a"
+)

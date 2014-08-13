@@ -10,7 +10,7 @@
 #define KN_REJ_HPP
 
 // Polar angle rejection criteria for the Klein-Nishin angular scat dist
-void KNRej( double (&alpha),
+void KNRej(	double (&alpha),
 			double (&mu)	);
 
 

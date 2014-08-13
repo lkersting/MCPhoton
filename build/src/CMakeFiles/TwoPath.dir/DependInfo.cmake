@@ -10,7 +10,8 @@ SET(CMAKE_CXX_COMPILER_ID "GNU")
 
 # Preprocessor definitions for this target.
 SET(CMAKE_TARGET_DEFINITIONS
-  "MU_REJECTION_SAMPLING=ComptonScatter"
+  "MU_REJECTION_SAMPLING=KNRej"
+  "TWO_PATH=true"
   )
 
 # Targets to which this target links.

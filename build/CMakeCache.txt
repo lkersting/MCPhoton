@@ -177,6 +177,9 @@ Constant_LIB_DEPENDS:STATIC=
 DIR:UNINITIALIZED=/home/lujoke/Documents/CPP/MCPhoton/data
 
 //Dependencies for target
+Lin2_LIB_DEPENDS:STATIC=
+
+//Dependencies for target
 Lin_LIB_DEPENDS:STATIC=
 
 //Dependencies for target

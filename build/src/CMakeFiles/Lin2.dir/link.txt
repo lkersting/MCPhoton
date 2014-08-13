@@ -1,0 +1,2 @@
+/usr/bin/ar cr libLin2.a  CMakeFiles/Lin2.dir/MCPhoton.cpp.o
+/usr/bin/ranlib libLin2.a

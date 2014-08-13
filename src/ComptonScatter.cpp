@@ -15,21 +15,15 @@
 // Other Includes
 #include "Interpolate.hpp"
 
-// Define data directory
-#define xstr(s) str(s)
-#define str(s) #s
-//#define _INTERPOLATOR2 getLinearInterpolation2
-
-
 // Sample compton scattering using the two track method
 void ComptonScatter (	double (&alpha),
 						double (&mu)	)
 {
-	// Material (Iron) S(x,z) data file name
-	std::string name = "/MCPhoton/data/S_Fe.txt";
+	// X grad data
+	extern std::deque<double> X_data;
 
-	// Full file path
-	std::string file = xstr(DIR) + name;
+	// S grid data
+	extern std::deque<double> S_data;
 
 	// The initial photon wavelength in Compton units
 	double lambda = 1.0/alpha;
@@ -59,7 +53,6 @@ void ComptonScatter (	double (&alpha),
 
 	while (reject)
 	{
-
 		// Set the 1st random number to sample track
 		r1 = std::rand()/(double)RAND_MAX;
 
@@ -79,7 +72,7 @@ void ComptonScatter (	double (&alpha),
 			x = 29.1433*alpha*sqrt( lambda*( t - 1.0 ) );
 
 			// Calculate S(x,Z)
-			_INTERPOLATOR2 ( file, x, S );
+			INTERPOLATOR2 ( X_data, S_data, x, S );
 
 			// Calcluate h1
 			h = 4.0*( 1.0/t - 1.0/pow(t,2) )*S/Z;
@@ -111,7 +104,7 @@ void ComptonScatter (	double (&alpha),
 			x = 29.1433*alpha*sqrt( lambda*( t - 1.0 ) );
 
 			// Calculate S(x,Z)
-			_INTERPOLATOR2 ( file, x, S );
+			INTERPOLATOR2 ( X_data, S_data, x, S );
 	
 			// Calcluate h2
 			h = ( 1.0/t + pow(1.0 + lambda - lambda*t,2) )*S/( 2.0*Z );

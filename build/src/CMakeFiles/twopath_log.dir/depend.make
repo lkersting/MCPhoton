@@ -7,6 +7,7 @@ src/CMakeFiles/twopath_log.dir/ComptonScatter.cpp.o: ../src/ComptonScatter.cpp
 src/CMakeFiles/twopath_log.dir/ComptonScatter.cpp.o: ../src/Interpolate.hpp
 
 src/CMakeFiles/twopath_log.dir/Interpolate.cpp.o: ../src/Interpolate.cpp
+src/CMakeFiles/twopath_log.dir/Interpolate.cpp.o: ../src/Interpolate.hpp
 
 src/CMakeFiles/twopath_log.dir/KNLinRej.cpp.o: ../src/KNLinRej.cpp
 

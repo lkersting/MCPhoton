@@ -81,6 +81,45 @@ sin_theta = sqrt( 1.0 - pow(mu,2) );
 TransformationMatrix ( sin_phi, cos_phi, sin_theta, mu, u );
 }
 
+/*
+// Calculate new photon orientation and energy after a scattering event 
+// using the two path rejection method
+void PhotonScatter(	std::deque<double> E_data,
+					std::deque<double> S_data, 
+								double (&u)[3],
+								double (&E)		) 
+{
+// Sine of azimuthal scattering angle
+double sin_phi;
+
+// Cosine of azimuthal scattering angle
+double cos_phi;
+
+// Sine of polar scattering angle
+double sin_theta;
+
+// Cosine of polar scattering angle
+double mu;
+
+// Photon energy normalized to electron rest mass (units m_e*c^2)
+double alpha = E/ELECTRON_MASS;
+
+// Sample azimuthal angle (phi)
+AzRej( sin_phi, cos_phi );
+
+// Sample the polar scattering angle
+MU_REJECTION_SAMPLING ( E_data, S_data, alpha, mu );
+
+// Calculate new photon energy
+E = E/( 1.0 + alpha*( 1 - mu ) );
+
+// Calculate sin( theta ) from mu
+sin_theta = sqrt( 1.0 - pow(mu,2) );
+
+// Calculate new photon orientation
+TransformationMatrix ( sin_phi, cos_phi, sin_theta, mu, u );
+}
+*/
 //---------------------------------------------------------------------------//
 // end PhotonScatter.hpp
 //---------------------------------------------------------------------------//

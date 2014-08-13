@@ -4,6 +4,7 @@
 src/CMakeFiles/linear_lin.dir/AzimuthalRej.cpp.o: ../src/AzimuthalRej.cpp
 
 src/CMakeFiles/linear_lin.dir/Interpolate.cpp.o: ../src/Interpolate.cpp
+src/CMakeFiles/linear_lin.dir/Interpolate.cpp.o: ../src/Interpolate.hpp
 
 src/CMakeFiles/linear_lin.dir/KNLinRej.cpp.o: ../src/KNLinRej.cpp
 

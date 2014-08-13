@@ -8,6 +8,7 @@ src/CMakeFiles/twopath_log.dir/ComptonScatter.cpp.o
  /home/lujoke/Documents/CPP/MCPhoton/src/Interpolate.hpp
 src/CMakeFiles/twopath_log.dir/Interpolate.cpp.o
  /home/lujoke/Documents/CPP/MCPhoton/src/Interpolate.cpp
+ /home/lujoke/Documents/CPP/MCPhoton/src/Interpolate.hpp
 src/CMakeFiles/twopath_log.dir/KNLinRej.cpp.o
  /home/lujoke/Documents/CPP/MCPhoton/src/KNLinRej.cpp
 src/CMakeFiles/twopath_log.dir/KNRej.cpp.o

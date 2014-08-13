@@ -4,6 +4,7 @@
 src/CMakeFiles/constant_log.dir/AzimuthalRej.cpp.o: ../src/AzimuthalRej.cpp
 
 src/CMakeFiles/constant_log.dir/Interpolate.cpp.o: ../src/Interpolate.cpp
+src/CMakeFiles/constant_log.dir/Interpolate.cpp.o: ../src/Interpolate.hpp
 
 src/CMakeFiles/constant_log.dir/KNLinRej.cpp.o: ../src/KNLinRej.cpp
 

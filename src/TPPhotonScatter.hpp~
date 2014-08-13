@@ -1,0 +1,21 @@
+//---------------------------------------------------------------------------//
+//!
+//! \file   TPPhotonScatter.hpp
+//! \author Luke Kersting
+//! \brief  New photon energy and orientation (Two Path) forward declaration header 
+//!
+//---------------------------------------------------------------------------//
+
+#ifndef T_P_PHOTON_SCATTER_HPP
+#define T_P_PHOTON_SCATTER_HPP
+
+// Calculate new photon orientation and energy after a scattering event
+void TPPhotonScatter(	 
+						double (&u)[3],
+						double (&E)		); 
+
+#endif // end PHOTON_SCATTER_HPP
+
+//---------------------------------------------------------------------------//
+// end PhotonScatter.hpp
+//---------------------------------------------------------------------------//

@@ -9,9 +9,13 @@
 #ifndef COMPTON_SCATTER_HPP
 #define COMPTON_SCATTER_HPP
 
+#include <deque>
+
 // Sample compton scattering using the two track method
-void ComptonScatter ( 	double (&alpha),
-						double (&mu) );
+void ComptonScatter (	//std::deque<double> &E_data,
+						//std::deque<double> &S_data,
+						double (&alpha),
+						double (&mu)	);
 
 
 #endif // end COMPTON_EFFECT_HPP

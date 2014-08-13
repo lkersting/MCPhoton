@@ -6,16 +6,33 @@
 //!
 //---------------------------------------------------------------------------//
 
-#include "MCPhoton.hpp"
-#include <ctime>
+// Define home directory
+#define xstr(s) str(s)
+#define str(s) #s
+
+#include <fstream>
 #include <cmath>
+#include <cstring>
+#include <iostream>
 #include <cstdlib>
+#include <ctime>
+#include "PhotonTransport.hpp"
+#include "PhotonScatter.hpp"
+#include "Interpolate.hpp"
+#include "RingDetector.hpp"
+
 
 // Number of histogram bins
 const int num_bins = 100;
 
 // Ring radius [cm]
 double ring_radius;
+
+// X grad data
+std::deque<double> X_data;
+
+// S grid data
+std::deque<double> S_data;
 
 main () 
 {
@@ -40,6 +57,9 @@ const double N_Fe = 55.845;
 // Iron (Fe) absorption and total cross section data file [cm^2/g] (E in MeV)
 std::string name = "/MCPhoton/data/Fe.txt";
 
+// Material (Iron) S(x,z) data file name
+std::string S_name = "/MCPhoton/data/S_Fe.txt";
+
 // Histogram file name
 std::string h_name = "/MCPhoton/histogram.txt";
 
@@ -55,6 +75,9 @@ std::string hist_name = xstr(DIR) + h_name;
 // X & Y location output file path
 std::string location_name = xstr(DIR) + xy_name;
 
+// Full S file path
+std::string filename = xstr(DIR) + S_name;
+
 // Random number for interaction sampling
 double rnd;
 
@@ -63,6 +86,15 @@ double sigma_a;
 
 // Micro total cross section
 double sigma_t;
+
+// Energy grid array
+std::deque<double> E_data;
+
+// Absorption X-section grid array
+std::deque<double> a_data;
+
+// Total X-section grid array
+std::deque<double> t_data;
 
 // Macro total cross section
 double Sig_t;
@@ -132,8 +164,14 @@ std::cin >> NumPhotons;
 // Start timer
 start = std::clock();
 
+// Extract S(x,z) data from the file
+getDataFile2( filename, X_data, S_data );
+
+// Extract cross section data from the file
+getDataFile3( file, E_data, a_data, t_data );
+
 // Get the initial micro total cross section
-_INTERPOLATOR3 ( file, E, sigma_a, sigma_t );
+INTERPOLATOR3( E_data, a_data, t_data, E, sigma_a, sigma_t );
 
 // Calculate initial macro total cross section
 Sig_t = sigma_t*N_Fe;
@@ -171,7 +209,8 @@ for (int p = 0; p < NumPhotons; p++) {
 	{
 
 		// Get Micro absorption and total cross section at current energy
-		_INTERPOLATOR3 ( file, E, sigma_a, sigma_t );
+		INTERPOLATOR3 ( E_data, a_data, t_data, E, sigma_a, sigma_t );
+
 
 		// Sample for scattering or absorption
 		rnd = std::rand()/(double)RAND_MAX;

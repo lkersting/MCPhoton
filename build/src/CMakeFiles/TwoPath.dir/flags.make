@@ -4,5 +4,5 @@
 # compile CXX with /usr/bin/c++
 CXX_FLAGS = -std=c++11 -g   -std=c++11
 
-CXX_DEFINES = -DMU_REJECTION_SAMPLING=ComptonScatter
+CXX_DEFINES = -DMU_REJECTION_SAMPLING=KNRej -DTWO_PATH=true
 

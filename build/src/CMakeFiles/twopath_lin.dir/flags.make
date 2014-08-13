@@ -4,5 +4,5 @@
 # compile CXX with /usr/bin/c++
 CXX_FLAGS = -std=c++11 -g   -std=c++11
 
-CXX_DEFINES = -DDIR=/home/lujoke/Documents/CPP -D_INTERPOLATOR2=getLinearInterpolation2
+CXX_DEFINES = -DDIR=/home/lujoke/Documents/CPP -DINTERPOLATOR2=getLinearInterpolation2
 
